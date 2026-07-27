@@ -10,9 +10,9 @@ This package provides the following subpackages:
 - paired: Power analysis for two paired proportions.
 """
 
-from ..proportion import independent
-from ..proportion import paired
-from ..proportion import single
+from . import independent
+from . import paired
+from . import single
 
 __all__ = [
     "single",

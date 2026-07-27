@@ -12,10 +12,10 @@ This package provides the following modules:
 - equivalence: Equivalence tests for a single mean.
 """
 
-from ...mean.single import ci
-from ...mean.single import inequality
-from ...mean.single import noninferiority
-from ...mean.single import superiority
+from . import ci
+from . import inequality
+from . import noninferiority
+from . import superiority
 
 __all__ = [
     "ci",

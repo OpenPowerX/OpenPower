@@ -9,6 +9,7 @@ Documentation is available in the docstrings and online at https://pystatpower.r
 from importlib.metadata import version
 
 from . import correlation
+from . import exceptions
 from . import mean
 from . import misc
 from . import proportion
@@ -16,6 +17,7 @@ from . import proportion
 __version__ = version("pystatpower")
 
 __all__ = [
+    "exceptions",
     "correlation",
     "mean",
     "proportion",
