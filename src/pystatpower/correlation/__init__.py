@@ -9,8 +9,8 @@ This package provides the following modules:
 - inequality: Inequality tests for correlation coefficient.
 """
 
-from ..correlation import ci
-from ..correlation import inequality
+from . import ci
+from . import inequality
 
 __all__ = [
     "ci",

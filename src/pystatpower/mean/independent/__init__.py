@@ -11,10 +11,10 @@ This package provides the following modules:
 - superiority: Superiority tests for two independent means.
 """
 
-from ...mean.independent import ci
-from ...mean.independent import inequality
-from ...mean.independent import noninferiority
-from ...mean.independent import superiority
+from . import ci
+from . import inequality
+from . import noninferiority
+from . import superiority
 
 __all__ = [
     "ci",

@@ -7,3 +7,9 @@ This package provides the following modules:
 
 - observe_at_least_one_event: Models that have observed at least one event
 """
+
+from . import observe_at_least_one_event
+
+__all__ = [
+    "observe_at_least_one_event",
+]

@@ -11,10 +11,10 @@ This package provides the following modules:
 - superiority: Superiority tests for two independent proportions.
 """
 
-from ...proportion.independent import ci
-from ...proportion.independent import inequality
-from ...proportion.independent import noninferiority
-from ...proportion.independent import superiority
+from . import ci
+from . import inequality
+from . import noninferiority
+from . import superiority
 
 __all__ = [
     "ci",

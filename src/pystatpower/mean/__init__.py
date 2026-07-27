@@ -9,8 +9,8 @@ This package provides the following subpackages:
 - independent: Power analysis for two independent mean.
 """
 
-from ..mean import independent
-from ..mean import single
+from . import independent
+from . import single
 
 __all__ = [
     "single",
