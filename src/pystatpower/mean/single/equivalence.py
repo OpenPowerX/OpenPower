@@ -22,7 +22,7 @@ def _power(
     lower_equivalence_limit: float,
     upper_equivalence_limit: float,
     std: float,
-    size: int,
+    size: float,
     alpha: float,
     dist: Literal["z", "t"],
 ) -> float:
