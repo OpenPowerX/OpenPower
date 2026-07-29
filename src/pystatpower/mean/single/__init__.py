@@ -13,12 +13,14 @@ This package provides the following modules:
 """
 
 from . import ci
+from . import equivalence
 from . import inequality
 from . import noninferiority
 from . import superiority
 
 __all__ = [
     "ci",
+    "equivalence",
     "inequality",
     "noninferiority",
     "superiority",
