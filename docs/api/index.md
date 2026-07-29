@@ -8,6 +8,7 @@
 | [mean.single.inequality](./mean/single/inequality.md)                   | Single Group Inequality Test               |
 | [mean.single.noninferiority](./mean/single/noninferiority.md)           | Single Group Non-Inferiority Test          |
 | [mean.single.superiority](./mean/single/superiority.md)                 | Single Group Superiority Test              |
+| [mean.single.equivalence](./mean/single/equivalence.md)                 | Single Group Equivalence Test              |
 | [mean.independent.ci](./mean/independent/ci.md)                         | Two Independent Groups Confidence Interval |
 | [mean.independent.inequality](./mean/independent/inequality.md)         | Two Independent Groups Inequality Test     |
 | [mean.independent.noninferiority](./mean/independent/noninferiority.md) | Two Independent Groups Non-Inferiority     |
