@@ -3,19 +3,19 @@
 对于高优指标（$\delta < 0$），统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: \mu_1 - \mu_2 \leqslant \delta \\
 H_1 &: \mu_1 - \mu_2 \gt \delta
-\end{align}
+\end{align*}
 $$
 
 对于低优指标（$\delta > 0$），统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: \mu_1 - \mu_2 \geqslant \delta \\
 H_1 &: \mu_1 - \mu_2 \lt \delta
-\end{align}
+\end{align*}
 $$
 
 $\delta$ 为非劣效界值，两样本均值分别用 $\hat{\mu}_1$ 和 $\hat{\mu}_2$ 表示，两样本方差分别用 $s_1$ 和 $s_2$ 表示，两总体方差分别用 $\sigma_1$ 和 $\sigma_2$ 表示。
@@ -64,7 +64,8 @@ $$
     $$
 
 ??? note "样本量公式推导"
-根据标准正态分布分位数的定义：
+
+    根据标准正态分布分位数的定义：
 
     $$
     z_{1-\alpha} \pm \frac{\mu_1 - \mu_2 - \delta}{\sigma\sqrt{\frac{1}{n_1} + \frac{1}{n_2}}} = z_\beta
@@ -116,7 +117,8 @@ $$
     $$
 
 ??? note "样本量公式推导"
-根据标准正态分布分位数的定义：
+
+    根据标准正态分布分位数的定义：
 
     $$
     z_{1-\alpha} \pm \frac{\mu_1 - \mu_2 - \delta}{\sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}} = z_\beta

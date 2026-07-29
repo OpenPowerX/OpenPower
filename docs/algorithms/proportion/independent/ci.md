@@ -7,10 +7,10 @@
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{p}_1 - \hat{p}_2 - z_{1 - \alpha/2} \sqrt{\frac{\hat{p}_1(1-\hat{p}_1)}{n_1} + \frac{\hat{p}_2(1-\hat{p}_2)}{n_2}} \\
     U & = \hat{p}_1 - \hat{p}_2 + z_{1 - \alpha/2} \sqrt{\frac{\hat{p}_1(1-\hat{p}_1)}{n_1} + \frac{\hat{p}_2(1-\hat{p}_2)}{n_2}}
-    \end{align}
+    \end{align*}
     $$
 
     定义置信区间的宽度为 $d$，则：
@@ -32,10 +32,10 @@
             可解出：
 
             $$
-            \begin{align}
+            \begin{align*}
             n_2 & = \frac{z_{1-\alpha/2}^2 \left[\hat{p}_1(1-\hat{p}_1)/k + \hat{p}_2(1-\hat{p}_2)\right]}{\left[d-(\hat{p}_1-\hat{p}_2)-1\right]^2} \\
             n_1 & = k n_2
-            \end{align}
+            \end{align*}
             $$
 
         ??? note "$L < -1, U > 1$"
@@ -55,10 +55,10 @@
             可解出：
 
             $$
-            \begin{align}
+            \begin{align*}
             n_2 & = \frac{4 \cdot z_{1-\alpha/2}^2 \left[\hat{p}_1(1-\hat{p}_1)/k + \hat{p}_2(1-\hat{p}_2)\right]}{d^2} \\
             n_1 & = k n_2
-            \end{align}
+            \end{align*}
             $$
 
         ??? note "$L \geqslant -1, U > 1$"
@@ -70,19 +70,19 @@
             可解出：
 
             $$
-            \begin{align}
+            \begin{align*}
             n_2 & = \frac{z_{1-\alpha/2}^2 \left[\hat{p}_1(1-\hat{p}_1)/k + \hat{p}_2(1-\hat{p}_2)\right]}{\left[d+(\hat{p}_1-\hat{p}_2)-1\right]^2} \\
             n_1 & = k n_2
-            \end{align}
+            \end{align*}
             $$
 
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{p}_1 - \hat{p}_2 - z_{1 - \alpha} \sqrt{\frac{\hat{p}_1(1-\hat{p}_1)}{n_1} + \frac{\hat{p}_2(1-\hat{p}_2)}{n_2}} \\
     U & = 1
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率差到置信限的距离为 $d$，则：
@@ -112,19 +112,19 @@
             可解出：
 
             $$
-            \begin{align}
+            \begin{align*}
             n_2 & = \frac{z_{1-\alpha}^2 \left[\hat{p}_1(1-\hat{p}_1)/k + \hat{p}_2(1-\hat{p}_2)\right]}{d^2} \\
             n_1 & = k n_2
-            \end{align}
+            \end{align*}
             $$
 
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = -1 \\
     U & = \hat{p}_1 - \hat{p}_2 + z_{1 - \alpha} \sqrt{\frac{\hat{p}_1(1-\hat{p}_1)}{n_1} + \frac{\hat{p}_2(1-\hat{p}_2)}{n_2}}
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率差到置信限的距离为 $d$，则：
@@ -146,10 +146,10 @@
             可解出：
 
             $$
-            \begin{align}
+            \begin{align*}
             n_2 & = \frac{z_{1-\alpha}^2 \left[\hat{p}_1(1-\hat{p}_1)/k + \hat{p}_2(1-\hat{p}_2)\right]}{d^2} \\
             n_1 & = k n_2
-            \end{align}
+            \end{align*}
             $$
 
         ??? note "$U > 1$"
@@ -165,10 +165,10 @@
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{p}_1 - \hat{p}_2 - z_{1 - \alpha/2} \sqrt{\frac{\hat{p}_1(1-\hat{p}_1)}{n_1} + \frac{\hat{p}_2(1-\hat{p}_2)}{n_2}} - \frac{1}{2} \left(\frac{1}{n_1} + \frac{1}{n_2}\right) \\
     U & = \hat{p}_1 - \hat{p}_2 + z_{1 - \alpha/2} \sqrt{\frac{\hat{p}_1(1-\hat{p}_1)}{n_1} + \frac{\hat{p}_2(1-\hat{p}_2)}{n_2}} + \frac{1}{2} \left(\frac{1}{n_1} + \frac{1}{n_2}\right)
-    \end{align}
+    \end{align*}
     $$
 
     定义置信区间的宽度为 $d$，则：
@@ -180,10 +180,10 @@
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{p}_1 - \hat{p}_2 - z_{1 - \alpha} \sqrt{\frac{\hat{p}_1(1-\hat{p}_1)}{n_1} + \frac{\hat{p}_2(1-\hat{p}_2)}{n_2}} - \frac{1}{2} \left(\frac{1}{n_1} + \frac{1}{n_2}\right) \\
     U & = 1
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率差到置信限的距离为 $d$，则：
@@ -195,10 +195,10 @@
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = -1 \\
     U & = \hat{p}_1 - \hat{p}_2 + z_{1 - \alpha} \sqrt{\frac{\hat{p}_1(1-\hat{p}_1)}{n_1} + \frac{\hat{p}_2(1-\hat{p}_2)}{n_2}} + \frac{1}{2} \left(\frac{1}{n_1} + \frac{1}{n_2}\right)
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率差到置信限的距离为 $d$，则：
@@ -216,10 +216,10 @@
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{p}_1 - \hat{p}_2 - \sqrt{\left(\hat{p}_1 - L_1\right)^2 + \left(U_2 - \hat{p}_2\right)^2} \\
     U & = \hat{p}_1 - \hat{p}_2 + \sqrt{\left(U_1 - \hat{p}_1\right)^2 + \left(\hat{p}_2 - L_2\right)^2}
-    \end{align}
+    \end{align*}
     $$
 
     定义置信区间的宽度为 $d$，则：
@@ -231,10 +231,10 @@
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{p}_1 - \hat{p}_2 - \sqrt{\left(\hat{p}_1 - L_1\right)^2 + \left(U_2 - \hat{p}_2\right)^2} \\
     U & = 1
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率差到置信限的距离为 $d$，则：
@@ -246,10 +246,10 @@
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = -1 \\
     U & = \hat{p}_1 - \hat{p}_2 + \sqrt{\left(U_1 - \hat{p}_1\right)^2 + \left(\hat{p}_2 - L_2\right)^2}
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率差到置信限的距离为 $d$，则：
@@ -267,10 +267,10 @@
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{p}_1 - \hat{p}_2 - \sqrt{\left(\hat{p}_1 - L_1\right)^2 + \left(U_2 - \hat{p}_2\right)^2} \\
     U & = \hat{p}_1 - \hat{p}_2 + \sqrt{\left(U_1 - \hat{p}_1\right)^2 + \left(\hat{p}_2 - L_2\right)^2}
-    \end{align}
+    \end{align*}
     $$
 
     定义置信区间的宽度为 $d$，则：
@@ -282,10 +282,10 @@
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{p}_1 - \hat{p}_2 - \sqrt{\left(\hat{p}_1 - L_1\right)^2 + \left(U_2 - \hat{p}_2\right)^2} \\
     U & = 1
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率差到置信限的距离为 $d$，则：
@@ -297,10 +297,10 @@
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = -1 \\
     U & = \hat{p}_1 - \hat{p}_2 + \sqrt{\left(U_1 - \hat{p}_1\right)^2 + \left(\hat{p}_2 - L_2\right)^2}
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率差到置信限的距离为 $d$，则：
@@ -320,7 +320,7 @@ $$
 其中：
 
 $$
-\begin{align}
+\begin{align*}
 & \tilde{p}_1  = \tilde{p}_2 + \delta_0 \\
 & \tilde{p}_2  = 2B\cos(A) - \frac{L_2}{3L_3} \\
 & A            = \frac{1}{3} \left[\pi + \arccos\left(\frac{C}{B^3}\right)\right] \\
@@ -334,7 +334,7 @@ $$
 & N            = n_1 + n_2 \\
 & x_{11}       = n_1\hat{p}_1 \\
 & x_{21}       = n_2\hat{p}_2
-\end{align}
+\end{align*}
 $$
 
 将 $z_{FMD}$ 视为关于 $\delta_0$ 的函数：
@@ -348,10 +348,10 @@ $\hat{p}_1 - \hat{p}_2$ 的置信区间端点可通过解方程得到。
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     f(L) & = z_{1 - \alpha/2} \\
     f(U) & = z_{\alpha/2}
-    \end{align}
+    \end{align*}
     $$
 
     定义置信区间的宽度为 $d$，则：
@@ -363,10 +363,10 @@ $\hat{p}_1 - \hat{p}_2$ 的置信区间端点可通过解方程得到。
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     f(L) & = z_{1 - \alpha} \\
     U    & = 1
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率差到置信限的距离为 $d$，则：
@@ -378,10 +378,10 @@ $\hat{p}_1 - \hat{p}_2$ 的置信区间端点可通过解方程得到。
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L    & = -1 \\
     f(U) & = z_{\alpha}
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率差到置信限的距离为 $d$，则：
@@ -403,7 +403,7 @@ $$
 其中：
 
 $$
-\begin{align}
+\begin{align*}
 & \tilde{p}_1  = \tilde{p}_2 + \delta_0 \\
 & \tilde{p}_2  = 2B\cos(A) - \frac{L_2}{3L_3} \\
 & A            = \frac{1}{3} \left[\pi + \arccos\left(\frac{C}{B^3}\right)\right] \\
@@ -417,7 +417,7 @@ $$
 & N            = n_1 + n_2 \\
 & x_{11}       = n_1\hat{p}_1 \\
 & x_{21}       = n_2\hat{p}_2
-\end{align}
+\end{align*}
 $$
 
 将 $z_{MND}$ 视为关于 $\delta_0$ 的函数：
@@ -431,10 +431,10 @@ $\hat{p}_1 - \hat{p}_2$ 的置信区间端点可通过解方程得到。
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     f(L) & = z_{1 - \alpha/2} \\
     f(U) & = z_{\alpha/2}
-    \end{align}
+    \end{align*}
     $$
 
     定义置信区间的宽度为 $d$，则：
@@ -446,10 +446,10 @@ $\hat{p}_1 - \hat{p}_2$ 的置信区间端点可通过解方程得到。
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     f(L) & = z_{1 - \alpha} \\
     U    & = 1
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率差到置信限的距离为 $d$，则：
@@ -461,10 +461,10 @@ $\hat{p}_1 - \hat{p}_2$ 的置信区间端点可通过解方程得到。
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L    & = -1 \\
     f(U) & = z_{\alpha}
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率差到置信限的距离为 $d$，则：

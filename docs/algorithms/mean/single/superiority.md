@@ -5,19 +5,19 @@
 对于高优指标 ($\delta > 0$)，统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: \mu - \mu_0 \leqslant \delta \\
 H_1 &: \mu - \mu_0 \gt \delta
-\end{align}
+\end{align*}
 $$
 
 对于低优指标 ($\delta < 0$)，统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: \mu - \mu_0 \geqslant \delta \\
 H_1 &: \mu - \mu_0 \lt \delta
-\end{align}
+\end{align*}
 $$
 
 以下推导过程在边界条件 $\mu - \mu_0 = \delta$ 下进行。

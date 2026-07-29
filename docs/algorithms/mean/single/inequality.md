@@ -3,28 +3,28 @@
 对于双侧检验，统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: \mu = \mu_0 \\
 H_1 &: \mu \neq \mu_0
-\end{align}
+\end{align*}
 $$
 
 对于左单侧检验，统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: \mu \geqslant \mu_0 \\
 H_1 &: \mu \lt \mu_0
-\end{align}
+\end{align*}
 $$
 
 对于右单侧检验，统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: \mu \leqslant \mu_0 \\
 H_1 &: \mu \gt \mu_0
-\end{align}
+\end{align*}
 $$
 
 样本均值用 $\hat{\mu}$ 表示，样本方差用 $s$ 表示，总体方差用 $\sigma$ 表示。

@@ -5,19 +5,19 @@
 对于高优指标（$\delta < 0$），统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: p_1 - p_2 \leqslant \delta \\
 H_1 &: p_1 - p_2 \gt \delta
-\end{align}
+\end{align*}
 $$
 
 对于低优指标（$\delta > 0$），统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: p_1 - p_2 \geqslant \delta \\
 H_1 &: p_1 - p_2 \lt \delta
-\end{align}
+\end{align*}
 $$
 
 以下推导过程在边界条件 $p_1 - p_2 = \delta$ 下进行。
@@ -68,7 +68,7 @@ $$
 === "高优指标"
 
     $$
-    \begin{align}
+    \begin{align*}
     \text{Power} & = P\left(z' > z_{1-\alpha}\right) \\
                  & = 1 - \Phi\left(\frac{z_{1-\alpha} - \frac{p_1 - p_2 - \delta}{\sqrt{\bar{p}(1-\bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}}
                                         {\sqrt{\frac{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}{\bar{p}(1-\bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}}
@@ -76,13 +76,13 @@ $$
                  & = 1 - \Phi\left(\frac{z_{1-\alpha} \sqrt{\bar{p}(1-\bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)} - (p_1-p_2-\delta)}
                                         {\sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}
                              \right) \\
-     \end{align}
+     \end{align*}
     $$
 
 === "低优指标"
 
     $$
-    \begin{align}
+    \begin{align*}
     \text{Power} & = P\left(z' < z_{\alpha}\right) \\
                  & = \Phi\left(\frac{z_{\alpha} - \frac{p_1 - p_2 - \delta}{\sqrt{\bar{p}(1-\bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}}
                                     {\sqrt{\frac{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}{\bar{p}(1-\bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}}
@@ -90,7 +90,7 @@ $$
                  & = \Phi\left(\frac{z_{\alpha} \sqrt{\bar{p}(1-\bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)} - (p_1-p_2-\delta)}
                                     {\sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}
                          \right)
-     \end{align}
+     \end{align*}
     $$
 
 ??? note "样本量公式推导"
@@ -141,23 +141,23 @@ $$
 === "高优指标"
 
     $$
-    \begin{align}
+    \begin{align*}
     \text{Power} = P\left(z' > z_{1-\alpha}\right)
                  = 1 - \Phi\left(\frac{z_{1-\alpha} \sqrt{\bar{p}(1-\bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)} - (p_1-p_2-\delta-c)}
                                       {\sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}
                            \right)
-    \end{align}
+    \end{align*}
     $$
 
 === "低优指标"
 
     $$
-    \begin{align}
+    \begin{align*}
     \text{Power} = P\left(z' < z_{\alpha}\right)
                  = \Phi\left(\frac{z_{\alpha} \sqrt{\bar{p}(1-\bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)} - (p_1-p_2-\delta+c)}
                                   {\sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}
                        \right)
-    \end{align}
+    \end{align*}
     $$
 
 ## _Z-Test Unpooled_ {#z-test-unpooled}

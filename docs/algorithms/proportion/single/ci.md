@@ -19,10 +19,10 @@ $$
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{p} - z_{1-\alpha/2} \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \\
     U & = \hat{p} + z_{1-\alpha/2} \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}
-    \end{align}
+    \end{align*}
     $$
 
     定义置信区间的宽度为 $d$，则：
@@ -34,10 +34,10 @@ $$
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{p} - z_{1-\alpha} \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} \\
     U & = 1
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率到置信限的距离为 $d$，则：
@@ -49,10 +49,10 @@ $$
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = 0 \\
     U & = \hat{p} + z_{1-\alpha} \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率到置信限的距离为 $d$，则：
@@ -72,10 +72,10 @@ $$
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{p} - z_{1-\alpha/2} \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} - \frac{1}{2n} \\
     U & = \hat{p} + z_{1-\alpha/2} \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} + \frac{1}{2n}
-    \end{align}
+    \end{align*}
     $$
 
     定义置信区间的宽度为 $d$，则：
@@ -87,10 +87,10 @@ $$
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{p} - z_{1-\alpha} \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} - \frac{1}{2n} \\
     U & = 1
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率到置信限的距离为 $d$，则：
@@ -102,10 +102,10 @@ $$
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = 0 \\
     U & = \hat{p} + z_{1-\alpha} \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} + \frac{1}{2n}
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率到置信限的距离为 $d$，则：
@@ -119,10 +119,10 @@ $$
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \frac{\left(2n\hat{p} + z_{1-\alpha/2}^2\right) - z_{1-\alpha/2} \sqrt{z_{1-\alpha/2}^2 + 4n\hat{p}(1-\hat{p})}}{2\left(n + z_{1-\alpha/2}^2\right)} \\
     U & = \frac{\left(2n\hat{p} + z_{1-\alpha/2}^2\right) + z_{1-\alpha/2} \sqrt{z_{1-\alpha/2}^2 + 4n\hat{p}(1-\hat{p})}}{2\left(n + z_{1-\alpha/2}^2\right)}
-    \end{align}
+    \end{align*}
     $$
 
     定义置信区间的宽度为 $d$，则：
@@ -134,10 +134,10 @@ $$
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \frac{\left(2n\hat{p} + z_{1-\alpha}^2\right) - z_{1-\alpha} \sqrt{z_{1-\alpha}^2 + 4n\hat{p}(1-\hat{p})}}{2\left(n + z_{1-\alpha}^2\right)} \\
     U & = 1
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率到置信限的距离为 $d$，则：
@@ -149,10 +149,10 @@ $$
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = 0 \\
     U & = \frac{\left(2n\hat{p} + z_{1-\alpha}^2\right) + z_{1-\alpha} \sqrt{z_{1-\alpha}^2 + 4n\hat{p}(1-\hat{p})}}{2\left(n + z_{1-\alpha}^2\right)}
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率到置信限的距离为 $d$，则：
@@ -166,10 +166,10 @@ $$
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \frac{\left(2n\hat{p} + z_{1-\alpha/2}^2 - 1\right) - z_{1-\alpha/2} \sqrt{z_{1-\alpha/2}^2 - \frac{1}{n} + 4n\hat{p}(1-\hat{p}) + 4\hat{p} - 2}}{2\left(n + z_{1-\alpha/2}^2\right)} \\
     U & = \frac{\left(2n\hat{p} + z_{1-\alpha/2}^2 + 1\right) + z_{1-\alpha/2} \sqrt{z_{1-\alpha/2}^2 - \frac{1}{n} + 4n\hat{p}(1-\hat{p}) - 4\hat{p} + 2}}{2\left(n + z_{1-\alpha/2}^2\right)}
-    \end{align}
+    \end{align*}
     $$
 
     定义置信区间的宽度为 $d$，则：
@@ -181,10 +181,10 @@ $$
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \frac{\left(2n\hat{p} + z_{1-\alpha}^2 - 1\right) - z_{1-\alpha} \sqrt{z_{1-\alpha}^2 - \frac{1}{n} + 4n\hat{p}(1-\hat{p}) + 4\hat{p} - 2}}{2\left(n + z_{1-\alpha}^2\right)} \\
     U & = 1
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率到置信限的距离为 $d$，则：
@@ -196,10 +196,10 @@ $$
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = 0 \\
     U & = \frac{\left(2n\hat{p} + z_{1-\alpha}^2 + 1\right) + z_{1-\alpha} \sqrt{z_{1-\alpha}^2 - \frac{1}{n} + 4n\hat{p}(1-\hat{p}) - 4\hat{p} + 2}}{2\left(n + z_{1-\alpha}^2\right)}
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率到置信限的距离为 $d$，则：
@@ -226,10 +226,10 @@ $$
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \left[ 1 + \frac{n - n\hat{p} + 1}{n\hat{p} F_{\alpha/2;\ 2n\hat{p},\ 2(n - n\hat{p} + 1)}} \right]^{-1} \\
     U & = \left[ 1 + \frac{n - n\hat{p}}{(n\hat{p} + 1) F_{1-\alpha/2;\ 2(n\hat{p} + 1), \ 2(n - n\hat{p})}} \right]^{-1}
-    \end{align}
+    \end{align*}
     $$
 
     定义置信区间的宽度为 $d$，则：
@@ -241,10 +241,10 @@ $$
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \left[ 1 + \frac{n - n\hat{p} + 1}{n\hat{p} F_{\alpha;\ 2n\hat{p},\ 2(n - n\hat{p} + 1)}} \right]^{-1} \\
     U & = 1
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率到置信限的距离为 $d$，则：
@@ -256,10 +256,10 @@ $$
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = 0 \\
     U & = \left[ 1 + \frac{n - n\hat{p}}{(n\hat{p} + 1) F_{1-\alpha;\ 2(n\hat{p} + 1), \ 2(n - n\hat{p})}} \right]^{-1}
-    \end{align}
+    \end{align*}
     $$
 
     定义样本率到置信限的距离为 $d$，则：

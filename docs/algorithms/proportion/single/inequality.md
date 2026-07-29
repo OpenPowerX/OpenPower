@@ -5,28 +5,28 @@
 对于双侧检验，统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 & : p = p_0 \\
 H_1 & : p \neq p_0
-\end{align}
+\end{align*}
 $$
 
 对于左单侧检验，统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 & : p \geqslant p_0 \\
 H_1 & : p \lt p_0
-\end{align}
+\end{align*}
 $$
 
 对于右单侧检验，统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 & : p \leqslant p_0 \\
 H_1 & : p \gt p_0
-\end{align}
+\end{align*}
 $$
 
 以下推导过程在边界条件 $p = p_0$ 下进行。
@@ -96,14 +96,14 @@ $$
 === "双侧检验"
 
     $$
-    \begin{align}
+    \begin{align*}
         \text{Power}
     & = P\left(z' > z_{1-\alpha/2} \right) + P\left(z' < z_{\alpha/2} \right) \\
     & = 1 - \Phi\left(\frac{z_{1-\alpha/2} - \frac{p-p_0}{\sqrt{p_0(1-p_0)/n}}}{\sqrt{\frac{p(1-p)}{p_0(1-p_0)}}}\right)
           + \Phi\left(\frac{z_{\alpha/2} - \frac{p-p_0}{\sqrt{p_0(1-p_0)/n}}}{\sqrt{\frac{p(1-p)}{p_0(1-p_0)}}}\right) \\
     & = 1 - \Phi\left(\frac{z_{1-\alpha/2}\sqrt{p_0(1-p_0)/n} - (p-p_0)}{\sqrt{p(1-p)/n}}\right)
           + \Phi\left(\frac{z_{\alpha/2}\sqrt{p_0(1-p_0)/n} - (p-p_0)}{\sqrt{p(1-p)/n}}\right)
-    \end{align}
+    \end{align*}
     $$
 
 === "左单侧检验"
@@ -165,14 +165,14 @@ $$
 === "双侧检验"
 
     $$
-    \begin{align}
+    \begin{align*}
         \text{Power}
     & = P\left(z' > z_{1-\alpha/2} \right) + P\left(z' < z_{\alpha/2} \right) \\
     & = 1 - \Phi\left(\frac{z_{1-\alpha/2} - \frac{p-p_0-c}{\sqrt{p_0(1-p_0)/n}}}{\sqrt{\frac{p(1-p)}{p_0(1-p_0)}}}\right)
           + \Phi\left(\frac{z_{\alpha/2} - \frac{p-p_0+c}{\sqrt{p_0(1-p_0)/n}}}{\sqrt{\frac{p(1-p)}{p_0(1-p_0)}}}\right) \\
     & = 1 - \Phi\left(\frac{z_{1-\alpha/2}\sqrt{p_0(1-p_0)/n} - (p-p_0-c)}{\sqrt{p(1-p)/n}}\right)
           + \Phi\left(\frac{z_{\alpha/2}\sqrt{p_0(1-p_0)/n} - (p-p_0+c)}{\sqrt{p(1-p)/n}}\right)
-    \end{align}
+    \end{align*}
     $$
 
 === "左单侧检验"
