@@ -3,28 +3,28 @@
 对于双侧检验，统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: \mu_1 = \mu_2 \\
 H_1 &: \mu_1 \neq \mu_2
-\end{align}
+\end{align*}
 $$
 
 对于左单侧检验，统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: \mu_1 \geqslant \mu_2 \\
 H_1 &: \mu_1 \lt \mu_2
-\end{align}
+\end{align*}
 $$
 
 对于右单侧检验，统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: \mu_1 \leqslant \mu_2 \\
 H_1 &: \mu_1 \gt \mu_2
-\end{align}
+\end{align*}
 $$
 
 两样本均值分别用 $\hat{\mu}_1$ 和 $\hat{\mu}_2$ 表示，两样本方差分别用 $s_1$ 和 $s_2$ 表示，两总体方差分别用 $\sigma_1$ 和 $\sigma_2$ 表示。
@@ -191,12 +191,12 @@ $$
 === "双侧检验"
 
     $$
-    \begin{align}
+    \begin{align*}
         \text{Power}
     & = P\left(t' > t_{1-\alpha/2}\right) + P\left(t' < t_{\alpha/2}\right) \\
     & = 1 - T\left(t_{1-\alpha/2, n_1 + n_2 - 2}; n_1 + n_2 - 2, \frac{\mu_1 - \mu_2}{\sigma \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}}\right)
           + T\left(t_{\alpha/2, n_1 + n_2 - 2}; n_1 + n_2 - 2, \frac{\mu_1 - \mu_2}{\sigma \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}}\right)
-    \end{align}
+    \end{align*}
     $$
 
 === "左单侧检验"
@@ -249,12 +249,12 @@ $$
 === "双侧检验"
 
     $$
-    \begin{align}
+    \begin{align*}
         \text{Power}
     & = P\left(t' > t_{1-\alpha/2}\right) + P\left(t' < t_{\alpha/2}\right) \\
     & = 1 - T\left(t_{1-\alpha/2, v'}; v', \frac{\mu_1 - \mu_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
           + T\left(t_{\alpha/2, v'}; v', \frac{\mu_1 - \mu_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
-    \end{align}
+    \end{align*}
     $$
 
 === "左单侧检验"
@@ -299,12 +299,12 @@ $$
 === "双侧检验"
 
     $$
-    \begin{align}
+    \begin{align*}
         \text{Power}
     & = P\left(t' > t_{1-\alpha/2}\right) + P\left(t' < t_{\alpha/2}\right) \\
     & = 1 - T\left(t_{1-\alpha/2, v'}; v', \frac{\mu_1 - \mu_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
           + T\left(t_{\alpha/2, v'}; v', \frac{\mu_1 - \mu_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
-    \end{align}
+    \end{align*}
     $$
 
 === "左单侧检验"

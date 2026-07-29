@@ -7,10 +7,10 @@
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{\mu}_1 - \hat{\mu}_2 - t_{1-\alpha/2, n_1+n_2-2} \sqrt{\frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1+n_2-2} \left(\frac{1}{n_1}+\frac{1}{n_2}\right)} \\
     U & = \hat{\mu}_1 - \hat{\mu}_2 + t_{1-\alpha/2, n_1+n_2-2} \sqrt{\frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1+n_2-2} \left(\frac{1}{n_1}+\frac{1}{n_2}\right)}
-    \end{align}
+    \end{align*}
     $$
 
     定义均值差到置信限的距离为 $d$，则：
@@ -22,10 +22,10 @@
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{\mu}_1 - \hat{\mu}_2 - t_{1-\alpha, n_1+n_2-2} \sqrt{\frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1+n_2-2} \left(\frac{1}{n_1}+\frac{1}{n_2}\right)} \\
     U & = + \infty
-    \end{align}
+    \end{align*}
     $$
 
     定义均值差到置信限的距离为 $d$，则：
@@ -37,10 +37,10 @@
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = - \infty \\
     U & = \hat{\mu}_1 - \hat{\mu}_2 + t_{1-\alpha, n_1+n_2-2} \sqrt{\frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1+n_2-2} \left(\frac{1}{n_1}+\frac{1}{n_2}\right)}
-    \end{align}
+    \end{align*}
     $$
 
     定义均值差到置信限的距离为 $d$，则：
@@ -62,10 +62,10 @@ $$
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{\mu}_1 - \hat{\mu}_2 - t_{1-\alpha/2, v} \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}} \\
     U & = \hat{\mu}_1 - \hat{\mu}_2 + t_{1-\alpha/2, v} \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}
-    \end{align}
+    \end{align*}
     $$
 
     定义均值差到置信限的距离为 $d$，则：
@@ -77,10 +77,10 @@ $$
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{\mu}_1 - \hat{\mu}_2 - t_{1-\alpha, v} \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}} \\
     U & = + \infty
-    \end{align}
+    \end{align*}
     $$
 
     定义均值差到置信限的距离为 $d$，则：
@@ -92,10 +92,10 @@ $$
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = - \infty \\
     U & = \hat{\mu}_1 - \hat{\mu}_2 + t_{1-\alpha, v} \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}
-    \end{align}
+    \end{align*}
     $$
 
     定义均值差到置信限的距离为 $d$，则：

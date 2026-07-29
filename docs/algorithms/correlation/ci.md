@@ -9,10 +9,10 @@ $$
 则样本相关系数 $\hat{r}$ 经 Fisher's z 转换后，近似服从正态分布：
 
 $$
-z_\hat{r} \sim N\left(z_r, \frac{1}{n-3}\right)
+z_{\hat{r}} \sim N\left(z_r, \frac{1}{n-3}\right)
 $$
 
-通过计算 $z_\hat{r}$ 的置信区间，并利用以下公式将置信限反转，可得到样本相关系数 $\hat{r}$ 的置信区间：
+通过计算 $z_{\hat{r}}$ 的置信区间，并利用以下公式将置信限反转，可得到样本相关系数 $\hat{r}$ 的置信区间：
 
 $$
 r = \operatorname{tanh}r = \frac{e^{2 z_r} - 1}{e^{2 z_r} + 1}
@@ -25,10 +25,10 @@ $$
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = z_{\hat{r}} - z_{1-\alpha/2} \sqrt{\frac{1}{n-3}} \\
     U & = z_{\hat{r}} + z_{1-\alpha/2} \sqrt{\frac{1}{n-3}}
-    \end{align}
+    \end{align*}
     $$
 
     置信区间宽度：
@@ -40,10 +40,10 @@ $$
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = z_{\hat{r}} - z_{1-\alpha} \sqrt{\frac{1}{n-3}} \\
     U & = 1
-    \end{align}
+    \end{align*}
     $$
 
     从相关系数到置信下限的距离：
@@ -55,10 +55,10 @@ $$
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = -1 \\
     U & = z_{\hat{r}} + z_{1-\alpha} \sqrt{\frac{1}{n-3}}
-    \end{align}
+    \end{align*}
     $$
 
     从相关系数到置信上限的距离：
@@ -72,16 +72,16 @@ $$
 在 [未校正偏倚][bias-not-adj] 的基础上加入校正项 $\frac{r}{2(n-1)}$，即：
 
 $$
-z_\hat{r} + \frac{\hat{r}}{2(n-1)} \sim N\left(z_r, \frac{1}{n-3}\right)
+z_{\hat{r}} + \frac{\hat{r}}{2(n-1)} \sim N\left(z_r, \frac{1}{n-3}\right)
 $$
 
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = z_{\hat{r}} - \frac{\hat{r}}{2(n-1)} - z_{1-\alpha/2} \sqrt{\frac{1}{n-3}} \\
     U & = z_{\hat{r}} - \frac{\hat{r}}{2(n-1)} + z_{1-\alpha/2} \sqrt{\frac{1}{n-3}}
-    \end{align}
+    \end{align*}
     $$
 
     置信区间宽度：
@@ -93,10 +93,10 @@ $$
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = z_{\hat{r}} - \frac{\hat{r}}{2(n-1)} - z_{1-\alpha} \sqrt{\frac{1}{n-3}} \\
     U & = 1
-    \end{align}
+    \end{align*}
     $$
 
     从相关系数到置信下限的距离：
@@ -108,10 +108,10 @@ $$
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = -1 \\
     U & = z_{\hat{r}} - \frac{\hat{r}}{2(n-1)} + z_{1-\alpha} \sqrt{\frac{1}{n-3}}
-    \end{align}
+    \end{align*}
     $$
 
     从相关系数到置信上限的距离：

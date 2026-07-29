@@ -5,28 +5,28 @@
 对于双侧检验，统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: p_1 = p_2 \\
 H_1 &: p_1 \neq p_2
-\end{align}
+\end{align*}
 $$
 
 对于左单侧检验，统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: p_1 \geqslant p_2 \\
 H_1 &: p_1 \lt p_2
-\end{align}
+\end{align*}
 $$
 
 对于右单侧检验，统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: p_1 \leqslant p_2\\
 H_1 &: p_1 \gt p_2
-\end{align}
+\end{align*}
 $$
 
 以下推导过程在边界条件 $p_1 = p_2$ 下进行。
@@ -69,7 +69,7 @@ $$
 === "双侧检验"
 
     $$
-    \begin{align}
+    \begin{align*}
         \text{Power}
     & = P\left(z' > z_{1-\alpha/2}\right) + P\left(z' < z_{\alpha/2}\right)  \\
     & = 1 - \Phi\left(\frac{z_{1-\alpha/2} \sqrt{\bar{p}(1-\bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)} - \left(p_1-p_2\right)}
@@ -78,29 +78,29 @@ $$
           + \Phi\left(\frac{z_{\alpha/2} \sqrt{\bar{p}(1-\bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)} - \left(p_1-p_2\right)}
                            {\sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}
                 \right)
-    \end{align}
+    \end{align*}
     $$
 
 === "左单侧检验"
 
     $$
-    \begin{align}
+    \begin{align*}
     \text{Power} = P\left(z' < z_{\alpha}\right)
                  = \Phi\left(\frac{z_{\alpha} \sqrt{\bar{p}(1-\bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)} - \left(p_1-p_2\right)}
                                   {\sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}
                        \right)
-    \end{align}
+    \end{align*}
     $$
 
 === "右单侧检验"
 
     $$
-    \begin{align}
+    \begin{align*}
     \text{Power} = P\left(z' > z_{1-\alpha}\right)
                  = 1 - \Phi\left(\frac{z_{1-\alpha} \sqrt{\bar{p}(1-\bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)} - \left(p_1-p_2\right)}
                                       {\sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}
                            \right)
-    \end{align}
+    \end{align*}
     $$
 
 ??? note "单侧检验样本量公式推导"
@@ -151,7 +151,7 @@ $$
 === "双侧检验"
 
     $$
-    \begin{align}
+    \begin{align*}
     \text{Power} & = P\left(z' > z_{1-\alpha/2}\right) + P\left(z' < z_{\alpha/2}\right) \\
                  & = \begin{aligned}[t]
                      1 & - \Phi\left(\frac{z_{1-\alpha/2} \sqrt{\bar{p}(1-\bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)} - (p_1-p_2-c)}
@@ -161,29 +161,29 @@ $$
                                           {\sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}
                                \right)
                      \end{aligned}
-    \end{align}
+    \end{align*}
     $$
 
 === "左单侧检验"
 
     $$
-    \begin{align}
+    \begin{align*}
     \text{Power} = P\left(z' < z_{\alpha}\right)
                  = \Phi\left(\frac{z_{\alpha} \sqrt{\bar{p}(1-\bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)} - (p_1-p_2+c)}
                                   {\sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}
                        \right)
-    \end{align}
+    \end{align*}
     $$
 
 === "右单侧检验"
 
     $$
-    \begin{align}
+    \begin{align*}
     \text{Power} = P\left(z' > z_{1-\alpha}\right)
                  = 1 - \Phi\left(\frac{z_{1-\alpha} \sqrt{\bar{p}(1-\bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)} - (p_1-p_2-c)}
                                       {\sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}
                            \right)
-    \end{align}
+    \end{align*}
     $$
 
 ## _Z-Test Unpooled_ {#z-test-unpooled}
@@ -203,12 +203,12 @@ $$
 === "双侧检验"
 
     $$
-    \begin{align}
+    \begin{align*}
         \text{Power}
     & = P\left(z' > z_{1-\alpha/2}\right) + P\left(z' < z_{\alpha/2}\right) \\
     & = 1 - \Phi\left(z_{1-\alpha/2} - \frac{p_1 - p_2}{\sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}\right)
           + \Phi\left(z_{\alpha/2} - \frac{p_1 - p_2}{\sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}\right)
-    \end{align}
+    \end{align*}
     $$
 
 === "左单侧检验"
@@ -272,12 +272,12 @@ $$
 === "双侧检验"
 
     $$
-    \begin{align}
+    \begin{align*}
         \text{Power}
     & = P\left(z' > z_{1-\alpha/2}\right) + P\left(z' < z_{\alpha/2}\right) \\
     & = 1 - \Phi\left(z_{1-\alpha/2} - \frac{p_1-p_2-c}{\sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}\right)
           + \Phi\left(z_{\alpha/2} - \frac{p_1-p_2+c}{\sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}}\right)
-    \end{align}
+    \end{align*}
     $$
 
 === "左单侧检验"

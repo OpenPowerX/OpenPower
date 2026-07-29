@@ -13,10 +13,10 @@ $$
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{\mu} - z_{1-\alpha/2} \frac{\sigma}{\sqrt{n}} \\
     U & = \hat{\mu} + z_{1-\alpha/2} \frac{\sigma}{\sqrt{n}}
-    \end{align}
+    \end{align*}
     $$
 
     定义均值到置信限的距离为 $d$，则：
@@ -28,10 +28,10 @@ $$
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{\mu} - z_{1-\alpha} \frac{\sigma}{\sqrt{n}} \\
     U & = +\infty
-    \end{align}
+    \end{align*}
     $$
 
     定义均值到置信限的距离为 $d$，则：
@@ -43,10 +43,10 @@ $$
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = -\infty \\
     U & = \hat{\mu} + z_{1-\alpha} \frac{\sigma}{\sqrt{n}}
-    \end{align}
+    \end{align*}
     $$
 
     定义均值到置信限的距离为 $d$，则：
@@ -66,10 +66,10 @@ $$
 === "双侧置信区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{\mu} - t_{1-\alpha/2,\ n-1} \frac{s}{\sqrt{n}} \\
     U & = \hat{\mu} + t_{1-\alpha/2,\ n-1} \frac{s}{\sqrt{n}}
-    \end{align}
+    \end{align*}
     $$
 
     定义均值到置信限的距离为 $d$，则：
@@ -81,10 +81,10 @@ $$
 === "单侧置信下限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = \hat{\mu} - t_{1-\alpha,\ n-1} \frac{s}{\sqrt{n}} \\
     U & = +\infty
-    \end{align}
+    \end{align*}
     $$
 
     定义均值到置信限的距离为 $d$，则：
@@ -96,10 +96,10 @@ $$
 === "单侧置信上限区间"
 
     $$
-    \begin{align}
+    \begin{align*}
     L & = -\infty \\
     U & = \hat{\mu} + t_{1-\alpha,\ n-1} \frac{s}{\sqrt{n}}
-    \end{align}
+    \end{align*}
     $$
 
     定义均值到置信限的距离为 $d$，则：

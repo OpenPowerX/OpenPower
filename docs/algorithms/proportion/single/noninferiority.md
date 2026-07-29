@@ -5,19 +5,19 @@
 对于高优指标（$\delta < 0$），统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: p - p_0 \leqslant \delta \\
 H_1 &: p - p_0 \gt \delta
-\end{align}
+\end{align*}
 $$
 
 对于低优指标（$\delta > 0$），统计学假设如下：
 
 $$
-\begin{align}
+\begin{align*}
 H_0 &: p - p_0 \geqslant \delta \\
 H_1 &: p - p_0 \lt \delta
-\end{align}
+\end{align*}
 $$
 
 以下推导过程在边界条件 $p - p_0 = \delta$ 下进行。
@@ -41,23 +41,23 @@ $$
 === "高优指标"
 
     $$
-    \begin{align}
+    \begin{align*}
         \text{Power}
     & = \operatorname{Pr}(z' > z_{1-\alpha}) \\
     & = 1 - \Phi\left(\frac{z_{1-\alpha} - \frac{p-p_0-\delta}{\sqrt{(p_0+\delta)(1-p_0-\delta)/n}}}{\frac{\sqrt{p(1-p)}}{\sqrt{(p_0+\delta)(1-p_0-\delta)}}}\right) \\
     & = 1 - \Phi\left(\frac{z_{1-\alpha}\sqrt{(p_0+\delta)(1-p_0-\delta)} - (p-p_0-\delta)\sqrt{n}}{\sqrt{p(1-p)}}\right)
-    \end{align}
+    \end{align*}
     $$
 
 === "低优指标"
 
     $$
-    \begin{align}
+    \begin{align*}
         \text{Power}
     & = \operatorname{Pr}(z' < z_{\alpha}) \\
     & = \Phi\left(\frac{z_{\alpha} - \frac{p-p_0-\delta}{\sqrt{(p_0+\delta)(1-p_0-\delta)/n}}}{\frac{\sqrt{p(1-p)}}{\sqrt{(p_0+\delta)(1-p_0-\delta)}}}\right) \\
     & = 1 - \Phi\left(\frac{z_{1-\alpha}\sqrt{(p_0+\delta)(1-p_0-\delta)} + (p-p_0-\delta)\sqrt{n}}{\sqrt{p(1-p)}}\right)
-    \end{align}
+    \end{align*}
     $$
 
 ??? note "样本量公式推导"
@@ -102,23 +102,23 @@ $$
 === "高优指标"
 
     $$
-    \begin{align}
+    \begin{align*}
         \text{Power}
     & = \operatorname{Pr}(z' > z_{1-\alpha}) \\
     & = 1 - \Phi\left(\frac{z_{1-\alpha} - \frac{p-p_0-\delta+c}{\sqrt{(p_0+\delta)(1-p_0-\delta)/n}}}{\frac{\sqrt{p(1-p)}}{\sqrt{(p_0+\delta)(1-p_0-\delta)}}}\right) \\
     & = 1 - \Phi\left(\frac{z_{1-\alpha}\sqrt{(p_0+\delta)(1-p_0-\delta)} - (p-p_0-\delta+c)\sqrt{n}}{\sqrt{p(1-p)}}\right)
-    \end{align}
+    \end{align*}
     $$
 
 === "低优指标"
 
     $$
-    \begin{align}
+    \begin{align*}
         \text{Power}
     & = \operatorname{Pr}(z' < z_{\alpha}) \\
     & = \Phi\left(\frac{z_{\alpha} - \frac{p-p_0-\delta+c}{\sqrt{(p_0+\delta)(1-p_0-\delta)/n}}}{\frac{\sqrt{p(1-p)}}{\sqrt{(p_0+\delta)(1-p_0-\delta)}}}\right) \\
     & = 1 - \Phi\left(\frac{z_{1-\alpha}\sqrt{(p_0+\delta)(1-p_0-\delta)} + (p-p_0-\delta+c)\sqrt{n}}{\sqrt{p(1-p)}}\right)
-    \end{align}
+    \end{align*}
     $$
 
 ## _Z-Test Using S(Phat)_ {#z-test-phat}
