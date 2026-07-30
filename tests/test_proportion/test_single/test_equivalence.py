@@ -7,8 +7,8 @@
 from dataclasses import dataclass
 from typing import Literal
 
-from pystatpower.proportion.single.equivalence import solve_power
-from pystatpower.proportion.single.equivalence import solve_size
+from ezpwr.proportion.single.equivalence import solve_power
+from ezpwr.proportion.single.equivalence import solve_size
 from tests.models import BaseTestCase
 
 

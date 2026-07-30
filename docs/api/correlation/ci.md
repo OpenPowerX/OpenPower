@@ -1,1 +1,1 @@
-::: pystatpower.correlation.ci
+::: ezpwr.correlation.ci

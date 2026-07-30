@@ -1,6 +1,6 @@
-# Welcome to PyStatPower
+# Welcome to Ezpwr
 
-**PyStatPower** is a modern, streamlined Python package tailored for statistical power analysis, sample size estimation, power calculation, and effect size solving.
+**Ezpwr** is a modern, streamlined Python package tailored for statistical power analysis, sample size estimation, power calculation, and effect size solving.
 
 Built with precision and developer experience in mind, it bridges the gap between statistical rigor and clean, pythonic interfaces.
 
@@ -21,7 +21,7 @@ Built with precision and developer experience in mind, it bridges the gap betwee
 Estimating the required sample size for a **Two-Sample Non-Inferiority Trial** takes only a few lines of code:
 
 ```python
-from pystatpower import proportion
+from ezpwr import proportion
 
 # Estimate sample size for non-inferiority proportion test
 treatment_size, reference_size = proportion.independent.noninferiority.solve_size(
@@ -41,13 +41,13 @@ print(f"Required Sample Size: Treatment={treatment_size}, Reference={reference_s
 
 ## 🧩 Package Architecture & API Reference
 
-`PyStatPower` offers a clean, hierarchical API design divided into four core statistical domains.
+`ezpwr` offers a clean, hierarchical API design divided into four core statistical domains.
 
 Each domain provides dedicated submodules for confidence intervals (`ci`), inequality/difference tests (`inequality`),
 non-inferiority (`noninferiority`), superiority (`superiority`), and equivalence (`equivalence`).
 
 ```text
-pystatpower
+ezpwr
 ├── mean            # Mean Models (Single, Independent, Paired)
 ├── proportion      # Proportion Models (Single, Independent, Paired)
 ├── correlation     # Correlation Models
@@ -61,5 +61,5 @@ pystatpower
 ## 🔗 Useful Links
 
 - 🗺️ [Project Roadmap & Status](./roadmap.md) — Check supported statistical models and future feature plans.
-- 📦 [PyPI Releases](https://pypi.org/project/pystatpower/) — Package downloads and version history.
-- 🛠️ [GitHub Repository](https://github.com/Snoopy1866/pystatpower) — Source code, issue tracker, and contributions.
+- 📦 [PyPI Releases](https://pypi.org/project/ezpwr/) — Package downloads and version history.
+- 🛠️ [GitHub Repository](https://github.com/ezpwr/ezpwr) — Source code, issue tracker, and contributions.

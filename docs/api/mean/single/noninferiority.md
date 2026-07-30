@@ -1,1 +1,1 @@
-::: pystatpower.mean.single.noninferiority
+::: ezpwr.mean.single.noninferiority

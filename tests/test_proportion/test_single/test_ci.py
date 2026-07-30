@@ -7,9 +7,9 @@
 from dataclasses import dataclass
 from typing import Literal
 
-from pystatpower.proportion.single.ci import solve_distance
-from pystatpower.proportion.single.ci import solve_proportion
-from pystatpower.proportion.single.ci import solve_size
+from ezpwr.proportion.single.ci import solve_distance
+from ezpwr.proportion.single.ci import solve_proportion
+from ezpwr.proportion.single.ci import solve_size
 from tests.models import BaseTestCase
 
 

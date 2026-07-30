@@ -11,8 +11,8 @@ from typing import Literal
 
 import pytest
 
-from pystatpower.mean.single.equivalence import solve_power
-from pystatpower.mean.single.equivalence import solve_size
+from ezpwr.mean.single.equivalence import solve_power
+from ezpwr.mean.single.equivalence import solve_size
 from tests.models import BaseTestCase
 
 pytestmark = pytest.mark.filterwarnings("ignore")

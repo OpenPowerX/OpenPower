@@ -1,1 +1,1 @@
-::: pystatpower.correlation.inequality
+::: ezpwr.correlation.inequality

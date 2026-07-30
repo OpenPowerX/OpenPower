@@ -60,12 +60,12 @@ nav = [
         { "exceptions" = "api/exceptions.md" }
     ] }
 ]
-site_name = "pystatpower"
-site_url = "https://pystatpower.readthedocs.io"
-site_author = "Snoopy1866"
-repo_url = "https://github.com/Snoopy1866/pystatpower"
+site_name = "Ezpwr"
+site_url = "https://ezpwr.readthedocs.io"
+site_author = "The Ezpwr Developers"
+repo_url = "https://github.com/ezpwr/ezpwr"
 edit_uri = "edit/main/docs/"
-copyright = "copyright &copy; 2024 - 2026 Snoopy1866"
+copyright = "copyright &copy; 2024 - 2026 Ezpwr"
 docs_dir = "docs"
 site_dir = "site"
 extra_css = ["stylesheets/extra.css"]

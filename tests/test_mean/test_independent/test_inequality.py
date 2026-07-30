@@ -13,15 +13,15 @@ from typing import Literal
 
 import pytest
 
-from pystatpower.mean.independent.inequality import _verify_mean_and_get_diff
-from pystatpower.mean.independent.inequality import _verify_std_and_get_std
-from pystatpower.mean.independent.inequality import solve_diff
-from pystatpower.mean.independent.inequality import solve_power
-from pystatpower.mean.independent.inequality import solve_reference_mean
-from pystatpower.mean.independent.inequality import solve_reference_std
-from pystatpower.mean.independent.inequality import solve_size
-from pystatpower.mean.independent.inequality import solve_treatment_mean
-from pystatpower.mean.independent.inequality import solve_treatment_std
+from ezpwr.mean.independent.inequality import _verify_mean_and_get_diff
+from ezpwr.mean.independent.inequality import _verify_std_and_get_std
+from ezpwr.mean.independent.inequality import solve_diff
+from ezpwr.mean.independent.inequality import solve_power
+from ezpwr.mean.independent.inequality import solve_reference_mean
+from ezpwr.mean.independent.inequality import solve_reference_std
+from ezpwr.mean.independent.inequality import solve_size
+from ezpwr.mean.independent.inequality import solve_treatment_mean
+from ezpwr.mean.independent.inequality import solve_treatment_std
 from tests.models import BaseTestCase
 
 

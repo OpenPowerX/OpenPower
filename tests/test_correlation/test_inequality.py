@@ -6,10 +6,10 @@ from typing import Literal
 
 import pytest
 
-from pystatpower.correlation.inequality import solve_correlation
-from pystatpower.correlation.inequality import solve_null_correlation
-from pystatpower.correlation.inequality import solve_power
-from pystatpower.correlation.inequality import solve_size
+from ezpwr.correlation.inequality import solve_correlation
+from ezpwr.correlation.inequality import solve_null_correlation
+from ezpwr.correlation.inequality import solve_power
+from ezpwr.correlation.inequality import solve_size
 from tests.models import BaseTestCase
 
 pytestmark = pytest.mark.skip(

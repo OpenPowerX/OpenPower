@@ -1,1 +1,1 @@
-::: pystatpower.proportion.independent.superiority
+::: ezpwr.proportion.independent.superiority

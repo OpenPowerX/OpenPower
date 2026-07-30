@@ -1,22 +1,22 @@
-# PyStatPower
+# Ezpwr
 
-[![PyPI - Version](https://img.shields.io/pypi/v/pystatpower)](https://badge.fury.io/py/pystatpower)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pystatpower)
-![GitHub License](https://img.shields.io/github/license/Snoopy1866/pystatpower)
-![PyPI - Status](https://img.shields.io/pypi/status/pystatpower)
-[![PyPI Downloads](https://static.pepy.tech/badge/pystatpower)](https://pepy.tech/projects/pystatpower)
+[![PyPI - Version](https://img.shields.io/pypi/v/ezpwr)](https://badge.fury.io/py/ezpwr)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ezpwr)
+![GitHub License](https://img.shields.io/github/license/ezpwr/ezpwr)
+![PyPI - Status](https://img.shields.io/pypi/status/ezpwr)
+[![PyPI Downloads](https://static.pepy.tech/badge/ezpwr)](https://pepy.tech/projects/ezpwr)
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/Snoopy1866/pystatpower/release.yml)](https://github.com/Snoopy1866/pystatpower/actions/workflows/release.yml?query=branch:main)
-[![Test Status](https://img.shields.io/github/actions/workflow/status/Snoopy1866/pystatpower/pytest.yml?branch=main&label=test)](https://github.com/Snoopy1866/pystatpower/actions/workflows/pytest.yml?query=branch:main)
-[![Documentation Status](https://readthedocs.org/projects/pystatpower/badge/?version=latest)](https://pystatpower.readthedocs.io/zh-cn/latest/?badge=latest)
-[![codecov](https://codecov.io/gh/Snoopy1866/pystatpower/graph/badge.svg?token=P9UWC8Q4P6)](https://codecov.io/gh/Snoopy1866/pystatpower)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Snoopy1866/pystatpower/main.svg)](https://results.pre-commit.ci/latest/github/Snoopy1866/pystatpower/main)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/ezpwr/ezpwr/release.yml)](https://github.com/ezpwr/ezpwr/actions/workflows/release.yml?query=branch:main)
+[![Test Status](https://img.shields.io/github/actions/workflow/status/ezpwr/ezpwr/pytest.yml?branch=main&label=test)](https://github.com/ezpwr/ezpwr/actions/workflows/pytest.yml?query=branch:main)
+[![Documentation Status](https://readthedocs.org/projects/ezpwr/badge/?version=latest)](https://ezpwr.readthedocs.io/zh-cn/latest/?badge=latest)
+[![codecov](https://codecov.io/gh/ezpwr/ezpwr/graph/badge.svg?token=P9UWC8Q4P6)](https://codecov.io/gh/ezpwr/ezpwr)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/ezpwr/ezpwr/main.svg)](https://results.pre-commit.ci/latest/github/ezpwr/ezpwr/main)
 
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![pytest](https://img.shields.io/badge/logo-pytest-blue?logo=pytest&labelColor=5c5c5c&label=%20)](https://github.com/pytest-dev/pytest)
 
-PyStatPower is a Python package for statistical power analysis that allows users to estimate sample size, test power, and effect size.
+Ezpwr is a Python package for statistical power analysis that allows users to estimate sample size, test power, and effect size.
 
 [简体中文](README-zh.md) | English
 
@@ -27,7 +27,7 @@ PyStatPower is a Python package for statistical power analysis that allows users
 **Prerequisites**: Python 3.10+
 
 ```bash
-pip install pystatpower
+pip install ezpwr
 ```
 
 ## 🚀 Usage Examples
@@ -37,7 +37,7 @@ pip install pystatpower
 - Single Proportion Confidence Interval
 
   ```python
-  from pystatpower import proportion
+  from ezpwr import proportion
 
   size = proportion.single.ci.solve_size(
       proportion=0.9,
@@ -53,7 +53,7 @@ pip install pystatpower
 - Single Proportion Inequality Test
 
   ```python
-  from pystatpower import proportion
+  from ezpwr import proportion
 
   size = proportion.single.inequality.solve_size(
       null_proportion=0.80,
@@ -70,7 +70,7 @@ pip install pystatpower
 - Two Independent Proportions Non-Inferiority Test
 
   ```python
-  from pystatpower import proportion
+  from ezpwr import proportion
 
   size = proportion.independent.noninferiority.solve_size(
       treatment_proportion=0.95,
@@ -88,7 +88,7 @@ pip install pystatpower
 - Two Independent Means Superiority Test
 
   ```python
-  from pystatpower import mean
+  from ezpwr import mean
 
   size = mean.independent.superiority.solve_size(
       diff=0.5,
@@ -107,7 +107,7 @@ pip install pystatpower
 ### Statistical Power Calculation
 
 ```python
-from pystatpower import proportion
+from ezpwr import proportion
 
 power = proportion.independent.noninferiority.solve_power(
     treatment_proportion=0.95,
@@ -125,7 +125,7 @@ print(power)
 ### Effect Size Solving
 
 ```python
-from pystatpower import proportion
+from ezpwr import proportion
 
 treatment_proportion = proportion.independent.noninferiority.solve_treatment_proportion(
     reference_proportion=0.90,
@@ -142,7 +142,7 @@ print(treatment_proportion)
 
 ## 🧪 Compatibility Matrix
 
-[![Test Status](https://img.shields.io/github/actions/workflow/status/Snoopy1866/pystatpower/pytest_full.yml?branch=main&label=test)](https://github.com/Snoopy1866/pystatpower/actions/workflows/pytest_full.yml?query=branch:main)
+[![Test Status](https://img.shields.io/github/actions/workflow/status/ezpwr/ezpwr/pytest_full.yml?branch=main&label=test)](https://github.com/ezpwr/ezpwr/actions/workflows/pytest_full.yml?query=branch:main)
 
 |            | 🐍 3.10 | 🐍 3.11 | 🐍 3.12 | 🐍 3.13 | 🐍 3.14 |
 | ---------- | ------- | ------- | ------- | ------- | ------- |

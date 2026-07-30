@@ -3,7 +3,7 @@
 
 from math import inf
 
-from pystatpower._math_utils import _domain_square_root_of_quad
+from ezpwr._math_utils import _domain_square_root_of_quad
 
 
 def test_domain_square_root_of_quad() -> None:

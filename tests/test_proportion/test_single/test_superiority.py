@@ -8,13 +8,13 @@ from typing import Literal
 
 import pytest
 
-from pystatpower.proportion.single.superiority import _verify_and_get_sup_proportion
-from pystatpower.proportion.single.superiority import solve_margin
-from pystatpower.proportion.single.superiority import solve_null_proportion
-from pystatpower.proportion.single.superiority import solve_power
-from pystatpower.proportion.single.superiority import solve_proportion
-from pystatpower.proportion.single.superiority import solve_size
-from pystatpower.proportion.single.superiority import solve_superiority_proportion
+from ezpwr.proportion.single.superiority import _verify_and_get_sup_proportion
+from ezpwr.proportion.single.superiority import solve_margin
+from ezpwr.proportion.single.superiority import solve_null_proportion
+from ezpwr.proportion.single.superiority import solve_power
+from ezpwr.proportion.single.superiority import solve_proportion
+from ezpwr.proportion.single.superiority import solve_size
+from ezpwr.proportion.single.superiority import solve_superiority_proportion
 from tests.models import BaseTestCase
 
 

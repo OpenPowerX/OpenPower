@@ -11,17 +11,17 @@ from typing import Literal
 
 import pytest
 
-from pystatpower.mean.single.superiority import _margin
-from pystatpower.mean.single.superiority import _ParamsValidator
-from pystatpower.mean.single.superiority import solve_diff
-from pystatpower.mean.single.superiority import solve_margin
-from pystatpower.mean.single.superiority import solve_mean
-from pystatpower.mean.single.superiority import solve_null_mean
-from pystatpower.mean.single.superiority import solve_offset
-from pystatpower.mean.single.superiority import solve_power
-from pystatpower.mean.single.superiority import solve_size
-from pystatpower.mean.single.superiority import solve_std
-from pystatpower.mean.single.superiority import solve_superiority_mean
+from ezpwr.mean.single.superiority import _margin
+from ezpwr.mean.single.superiority import _ParamsValidator
+from ezpwr.mean.single.superiority import solve_diff
+from ezpwr.mean.single.superiority import solve_margin
+from ezpwr.mean.single.superiority import solve_mean
+from ezpwr.mean.single.superiority import solve_null_mean
+from ezpwr.mean.single.superiority import solve_offset
+from ezpwr.mean.single.superiority import solve_power
+from ezpwr.mean.single.superiority import solve_size
+from ezpwr.mean.single.superiority import solve_std
+from ezpwr.mean.single.superiority import solve_superiority_mean
 from tests.models import BaseTestCase
 
 pytestmark = pytest.mark.filterwarnings("ignore")

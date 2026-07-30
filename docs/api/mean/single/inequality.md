@@ -1,1 +1,1 @@
-::: pystatpower.mean.single.inequality
+::: ezpwr.mean.single.inequality

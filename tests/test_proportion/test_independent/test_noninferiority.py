@@ -7,11 +7,11 @@
 from dataclasses import dataclass
 from typing import Literal
 
-from pystatpower.proportion.independent.noninferiority import solve_margin
-from pystatpower.proportion.independent.noninferiority import solve_power
-from pystatpower.proportion.independent.noninferiority import solve_reference_proportion
-from pystatpower.proportion.independent.noninferiority import solve_size
-from pystatpower.proportion.independent.noninferiority import solve_treatment_proportion
+from ezpwr.proportion.independent.noninferiority import solve_margin
+from ezpwr.proportion.independent.noninferiority import solve_power
+from ezpwr.proportion.independent.noninferiority import solve_reference_proportion
+from ezpwr.proportion.independent.noninferiority import solve_size
+from ezpwr.proportion.independent.noninferiority import solve_treatment_proportion
 from tests.models import BaseTestCase
 
 

@@ -1,1 +1,1 @@
-::: pystatpower.mean.single.ci
+::: ezpwr.mean.single.ci

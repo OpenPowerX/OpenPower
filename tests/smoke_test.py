@@ -12,20 +12,20 @@ import sys
 def main() -> None:
     # 1. 尝试导入包的主模块
     try:
-        import pystatpower
+        import ezpwr
     except ImportError as e:
-        print(f"Failed to import pystatpower: {e}", file=sys.stderr)
+        print(f"Failed to import ezpwr: {e}", file=sys.stderr)
         sys.exit(1)
 
     # 2. 可选：打印版本，确认版本号正确
     try:
-        print(f"Imported {pystatpower.__name__} version {pystatpower.__version__}")
+        print(f"Imported {ezpwr.__name__} version {ezpwr.__version__}")
     except AttributeError:
         print("Package does not expose __version__")
 
     # 3. 测试一个最基本的 API 调用
     try:
-        result = pystatpower.proportion.independent.noninferiority.solve_size(
+        result = ezpwr.proportion.independent.noninferiority.solve_size(
             treatment_proportion=0.9,
             reference_proportion=0.8,
             margin=-0.10,

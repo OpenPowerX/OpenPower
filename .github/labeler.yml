@@ -32,80 +32,80 @@ refactor:
 
 mean.single.ci:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/mean/single/ci.py"
+      - any-glob-to-any-file: "src/ezpwr/mean/single/ci.py"
 
 mean.single.inequality:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/mean/single/inequality.py"
+      - any-glob-to-any-file: "src/ezpwr/mean/single/inequality.py"
 
 mean.single.noninferiority:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/mean/single/noninferiority.py"
+      - any-glob-to-any-file: "src/ezpwr/mean/single/noninferiority.py"
 
 mean.single.superiority:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/mean/single/superiority.py"
+      - any-glob-to-any-file: "src/ezpwr/mean/single/superiority.py"
 
 mean.single.equivalence:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/mean/single/equivalence.py"
+      - any-glob-to-any-file: "src/ezpwr/mean/single/equivalence.py"
 
 mean.independent.ci:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/mean/independent/ci.py"
+      - any-glob-to-any-file: "src/ezpwr/mean/independent/ci.py"
 
 mean.independent.inequality:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/mean/independent/inequality.py"
+      - any-glob-to-any-file: "src/ezpwr/mean/independent/inequality.py"
 
 mean.independent.noninferiority:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/mean/independent/noninferiority.py"
+      - any-glob-to-any-file: "src/ezpwr/mean/independent/noninferiority.py"
 
 mean.independent.superiority:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/mean/independent/superiority.py"
+      - any-glob-to-any-file: "src/ezpwr/mean/independent/superiority.py"
 
 proportion.single.ci:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/proportion/single/ci.py"
+      - any-glob-to-any-file: "src/ezpwr/proportion/single/ci.py"
 
 proportion.single.inequality:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/proportion/single/inequality.py"
+      - any-glob-to-any-file: "src/ezpwr/proportion/single/inequality.py"
 
 proportion.single.noninferiority:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/proportion/single/noninferiority.py"
+      - any-glob-to-any-file: "src/ezpwr/proportion/single/noninferiority.py"
 
 proportion.single.superiority:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/proportion/single/superiority.py"
+      - any-glob-to-any-file: "src/ezpwr/proportion/single/superiority.py"
 
 proportion.single.equivalence:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/proportion/single/equivalence.py"
+      - any-glob-to-any-file: "src/ezpwr/proportion/single/equivalence.py"
 
 proportion.independent.ci:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/proportion/independent/ci.py"
+      - any-glob-to-any-file: "src/ezpwr/proportion/independent/ci.py"
 
 proportion.independent.inequality:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/proportion/independent/inequality.py"
+      - any-glob-to-any-file: "src/ezpwr/proportion/independent/inequality.py"
 
 proportion.independent.noninferiority:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/proportion/independent/noninferiority.py"
+      - any-glob-to-any-file: "src/ezpwr/proportion/independent/noninferiority.py"
 
 proportion.independent.superiority:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/proportion/independent/superiority.py"
+      - any-glob-to-any-file: "src/ezpwr/proportion/independent/superiority.py"
 
 correlation.ci:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/correlation/ci.py"
+      - any-glob-to-any-file: "src/ezpwr/correlation/ci.py"
 
 correlation.inequality:
   - changed-files:
-      - any-glob-to-any-file: "src/pystatpower/correlation/inequality.py"
+      - any-glob-to-any-file: "src/ezpwr/correlation/inequality.py"

@@ -10,17 +10,17 @@ from typing import Literal
 
 import pytest
 
-from pystatpower.mean.single.noninferiority import _margin
-from pystatpower.mean.single.noninferiority import _ParamsValidator
-from pystatpower.mean.single.noninferiority import solve_diff
-from pystatpower.mean.single.noninferiority import solve_margin
-from pystatpower.mean.single.noninferiority import solve_mean
-from pystatpower.mean.single.noninferiority import solve_noninferiority_mean
-from pystatpower.mean.single.noninferiority import solve_null_mean
-from pystatpower.mean.single.noninferiority import solve_offset
-from pystatpower.mean.single.noninferiority import solve_power
-from pystatpower.mean.single.noninferiority import solve_size
-from pystatpower.mean.single.noninferiority import solve_std
+from ezpwr.mean.single.noninferiority import _margin
+from ezpwr.mean.single.noninferiority import _ParamsValidator
+from ezpwr.mean.single.noninferiority import solve_diff
+from ezpwr.mean.single.noninferiority import solve_margin
+from ezpwr.mean.single.noninferiority import solve_mean
+from ezpwr.mean.single.noninferiority import solve_noninferiority_mean
+from ezpwr.mean.single.noninferiority import solve_null_mean
+from ezpwr.mean.single.noninferiority import solve_offset
+from ezpwr.mean.single.noninferiority import solve_power
+from ezpwr.mean.single.noninferiority import solve_size
+from ezpwr.mean.single.noninferiority import solve_std
 from tests.models import BaseTestCase
 
 pytestmark = pytest.mark.filterwarnings("ignore")

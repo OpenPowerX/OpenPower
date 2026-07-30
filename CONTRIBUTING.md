@@ -1,6 +1,6 @@
-# Contributing to PyStatPower
+# Contributing to Ezpwr
 
-Thank you for your interest in contributing to **PyStatPower**! We welcome contributions of all kinds, including bug fixes, new statistical models, feature enhancements, documentation updates, and issue reports.
+Thank you for your interest in contributing to **Ezpwr**! We welcome contributions of all kinds, including bug fixes, new statistical models, feature enhancements, documentation updates, and issue reports.
 
 ## 📜 Table of Contents
 
@@ -27,7 +27,7 @@ By participating in this project, you agree to maintain a respectful, inclusive,
 
 If you encounter a bug or unexpected behavior:
 
-1. Check the [Issue Tracker](https://github.com/Snoopy1866/pystatpower/issues) to ensure it hasn't already been reported.
+1. Check the [Issue Tracker](https://github.com/ezpwr/ezpwr/issues) to ensure it hasn't already been reported.
 2. Open a new issue with a clear title and description.
 3. Include a **Minimal Reproducible Example (MRE)**, your Python version, SciPy version, and OS details.
 
@@ -49,8 +49,8 @@ We use [`uv`](https://github.com/astral-sh/uv) for fast Python package managemen
 1. **Fork and clone the repository:**
 
    ```bash
-   git clone https://github.com/Snoopy1866/pystatpower.git
-   cd pystatpower
+   git clone https://github.com/ezpwr/ezpwr.git
+   cd ezpwr
    ```
 
 2. **Set up the virtual environment and install dependencies:**
@@ -90,7 +90,7 @@ We use [pytest](https://github.com/pytest-dev/pytest) for testing. Please ensure
 - Run tests with coverage
 
   ```bash
-  uv run pytest --cov=pystatpower
+  uv run pytest --cov=ezpwr
   ```
 
 ### Commit Message Guidelines
@@ -181,4 +181,4 @@ For model names not covered in the table above, you may use the acronym of the n
    git push -u origin feature/your-feature-name
    ```
 
-Thank you for contributing to PyStatPower! 🚀
+Thank you for contributing to Ezpwr! 🚀

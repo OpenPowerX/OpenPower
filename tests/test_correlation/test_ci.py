@@ -6,8 +6,8 @@ from typing import Literal
 
 import pytest
 
-from pystatpower.correlation.ci import solve_distance
-from pystatpower.correlation.ci import solve_size
+from ezpwr.correlation.ci import solve_distance
+from ezpwr.correlation.ci import solve_size
 from tests.models import BaseTestCase
 
 

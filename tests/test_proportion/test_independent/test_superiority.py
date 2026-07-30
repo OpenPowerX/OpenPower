@@ -9,12 +9,12 @@ from typing import Literal
 
 import pytest
 
-from pystatpower.proportion.independent.superiority import solve_margin
-from pystatpower.proportion.independent.superiority import solve_power
-from pystatpower.proportion.independent.superiority import solve_reference_proportion
-from pystatpower.proportion.independent.superiority import solve_size
-from pystatpower.proportion.independent.superiority import solve_superiority_proportion
-from pystatpower.proportion.independent.superiority import solve_treatment_proportion
+from ezpwr.proportion.independent.superiority import solve_margin
+from ezpwr.proportion.independent.superiority import solve_power
+from ezpwr.proportion.independent.superiority import solve_reference_proportion
+from ezpwr.proportion.independent.superiority import solve_size
+from ezpwr.proportion.independent.superiority import solve_superiority_proportion
+from ezpwr.proportion.independent.superiority import solve_treatment_proportion
 from tests.models import BaseTestCase
 
 

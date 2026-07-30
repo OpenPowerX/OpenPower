@@ -4,7 +4,7 @@
 import importlib
 import pkgutil
 
-import pystatpower
+import ezpwr
 
 
 def test_public_exported() -> None:
@@ -12,7 +12,7 @@ def test_public_exported() -> None:
 
     missing_exports = []
 
-    for _, module_name, _ in pkgutil.walk_packages(pystatpower.__path__, prefix=f"{pystatpower.__name__}."):
+    for _, module_name, _ in pkgutil.walk_packages(ezpwr.__path__, prefix=f"{ezpwr.__name__}."):
         if any(part.startswith("_") for part in module_name.split(".")):
             continue
 
