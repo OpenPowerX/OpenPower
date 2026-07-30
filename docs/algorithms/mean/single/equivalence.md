@@ -88,8 +88,8 @@ $$
 $$
 \begin{align*}
     \text{Power}
-& = P(t'_1 > t_{1-\alpha, \; n-1} \ \cap \ t'_2 < t_{\alpha, \; n-1}) \\
-& = Q_1\left(\nu, \ t_{\alpha, n-1}, \ \frac{\mu - \mu_0 - \delta_2}{\sigma/\sqrt{n}} \ R\right) - Q_1\left(\nu, \ t_{1-\alpha, n-1}, \ \frac{\mu - \mu_0 - \delta_1}{\sigma/\sqrt{n}}, \ R\right)
+& = P(t'_1 > t_{1-\alpha, n-1} \ \cap \ t'_2 < t_{\alpha, n-1}) \\
+& = Q_1\left(\nu, \ t_{\alpha, n-1}, \ \frac{\mu - \mu_0 - \delta_2}{\sigma/\sqrt{n}}, \ R\right) - Q_1\left(\nu, \ t_{1-\alpha, n-1}, \ \frac{\mu - \mu_0 - \delta_1}{\sigma/\sqrt{n}}, \ R\right)
 \end{align*}
 $$
 
