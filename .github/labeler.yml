@@ -46,6 +46,10 @@ mean.single.superiority:
   - changed-files:
       - any-glob-to-any-file: "src/pystatpower/mean/single/superiority.py"
 
+mean.single.equivalence:
+  - changed-files:
+      - any-glob-to-any-file: "src/pystatpower/mean/single/equivalence.py"
+
 mean.independent.ci:
   - changed-files:
       - any-glob-to-any-file: "src/pystatpower/mean/independent/ci.py"
