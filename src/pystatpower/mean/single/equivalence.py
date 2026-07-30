@@ -10,10 +10,13 @@ This module provides functions to calculate or estimate the following parameters
 """
 
 from math import ceil
+from math import sqrt
 from typing import Literal
 
 from scipy.optimize import brentq
+from scipy.stats import t
 
+from ..._math_utils import _owen_o4
 from ._power import _power as _raw_power
 
 
@@ -27,11 +30,20 @@ def _power(
     dist: Literal["z", "t"],
 ) -> float:
     """Calculate the statistical power."""
-    return (
-        _raw_power(mean - lower_equivalence_limit, std, size, "greater", alpha, dist)
-        + _raw_power(mean - upper_equivalence_limit, std, size, "less", alpha, dist)
-        - 1
-    )
+    if dist == "z" or (dist == "t" and size > 300):
+        return (
+            _raw_power(mean - lower_equivalence_limit, std, size, "greater", alpha, dist)
+            + _raw_power(mean - upper_equivalence_limit, std, size, "less", alpha, dist)
+            - 1
+        )
+    else:
+        df = size - 1
+        t1 = t.ppf(1 - alpha, df)
+        t2 = -t1
+        delta1 = (mean - lower_equivalence_limit) * sqrt(size) / std
+        delta2 = (mean - upper_equivalence_limit) * sqrt(size) / std
+        power = _owen_o4(df, t1, t2, delta1, delta2)
+        return power
 
 
 def solve_power(
