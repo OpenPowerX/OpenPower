@@ -28,6 +28,9 @@ nav = [
             { "相关系数置信区间" = "algorithms/correlation/ci.md" },
             { "相关系数差异性检验" = "algorithms/correlation/inequality.md" },
             { "至少观察到一例事件的检出能力" = "algorithms/misc/observe_at_least_one_event.md" }
+        ] },
+        { "附录" = [
+            { "Owen's Q function" = "algorithms/appendix/owenq.md" }
         ] }
     ] },
     { "Roadmap" = "roadmap.md" },
