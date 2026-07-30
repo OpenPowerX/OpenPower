@@ -87,14 +87,13 @@ $$
 
 $$
 \begin{align*}
-\text{Power}
-& = P(t'_1 > t_{1-\alpha, \; n-1} \ \cap \ t'_2 < t_{\alpha, \; n-1}) \\
-& = P(t'_1 > t_{1-\alpha, \; n-1}) + P(t'_2 < t_{\alpha, \; n-1}) - P(t'_1 > t_{1-\alpha, \; n-1} \ \cup \ t'_2 < t_{\alpha, \; n-1}) \\
-& \approx P(t'_1 > t_{1-\alpha, \; n-1}) + P(t'_2 < t_{\alpha, \; n-1}) - 1 \\
-& = 1 - T\left(t*{1-\alpha, \; n-1}; n-1, \frac{\mu - \mu_0 - \delta_1}{\sigma/\sqrt{n}}\right) + T\left(t*{\alpha, \; n-1}; n-1, \frac{\mu - \mu*0 - \delta_2}{\sigma/\sqrt{n}}\right) - 1 \\
-& = T\left(t*{\alpha, \; n-1}; n-1, \frac{\mu - \mu*0 - \delta_2}{\sigma/\sqrt{n}}\right) - T\left(t*{1-\alpha, \; n-1}; n-1, \frac{\mu - \mu_0 - \delta_1}{\sigma/\sqrt{n}}\right)
+    \text{Power}
+& = P(t'_1 > t_{1-\alpha, n-1} \ \cap \ t'_2 < t_{\alpha, n-1}) \\
+& = Q_1\left(\nu, \ t_{\alpha, n-1}, \ \frac{\mu - \mu_0 - \delta_2}{\sigma/\sqrt{n}}, \ R\right) - Q_1\left(\nu, \ t_{1-\alpha, n-1}, \ \frac{\mu - \mu_0 - \delta_1}{\sigma/\sqrt{n}}, \ R\right)
 \end{align*}
 $$
+
+其中 $Q_1(\cdot)$ 表示 [第一类 Owen's Q 函数](../../appendix/owenq.md#owen-q-first-type)。
 
 !!! quote "参考文献"
 
