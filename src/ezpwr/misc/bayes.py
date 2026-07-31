@@ -8,8 +8,7 @@ from scipy.stats import gamma
 # 辅助函数：求解临界总观察时间 U
 # ============================================================
 def find_U(m, a, b, delta_threshold, prob_target, lower=1e-6, upper=1e6):
-    """
-    求解满足 P(δ < delta_threshold | m, U) = prob_target 的 U 值。
+    """求解满足 P(δ < delta_threshold | m, U) = prob_target 的 U 值。
     其中 δ 的后验分布为 Gamma(shape=a+m, rate=b+U)。
     利用单调性使用二分法 (brentq)。
 
@@ -48,8 +47,7 @@ def find_U(m, a, b, delta_threshold, prob_target, lower=1e-6, upper=1e6):
 # 核心算法：求解给定 eta, xi 的两阶段设计参数
 # ============================================================
 def get_two_stage_design(a, b, delta1, t, eta, xi, max_m=100):
-    """
-    根据论文 Algorithm 2 求解两阶段设计参数。
+    """根据论文 Algorithm 2 求解两阶段设计参数。
 
     参数:
         a, b: Gamma 先验的形状和速率
@@ -96,8 +94,7 @@ def get_two_stage_design(a, b, delta1, t, eta, xi, max_m=100):
 def simulate_design(
     a, b, delta1, t, eta, xi, S0_x, x, ta, tf, n_sim=1000, alpha_target=0.1, power_target=0.8, max_m=100, seed=123
 ):
-    """
-    蒙特卡洛模拟评估设计在给定假设下的 I 类错误 (H0: delta=1) 和功效 (H1: delta=delta1)。
+    """蒙特卡洛模拟评估设计在给定假设下的 I 类错误 (H0: delta=1) 和功效 (H1: delta=delta1)。
 
     假设参考生存 S0 为指数分布，S0(x) = S0_x  =>  lambda0 = -log(S0_x)/x。
     入组时间服从 Uniform(0, ta)，随访时间为 tf（最后一位入组后至少随访 tf）。
@@ -187,8 +184,7 @@ def simulate_design(
 def simulate_design_simple(
     a, b, delta1, t, eta, xi, S0_x, x, ta, tf, n_sim=1000, alpha_target=0.1, power_target=0.8, max_m=100, seed=123
 ):
-    """
-    简化模拟：先计算出预期样本量 n = m / p，其中 p 是事件概率（在给定假设下），
+    """简化模拟：先计算出预期样本量 n = m / p，其中 p 是事件概率（在给定假设下），
     然后生成 n 个患者的观察数据，计算事件数和 U，判断决策。
     注意：这与真正的事件驱动（入组直到 m 个事件）略有不同，但可快速评估。
     """
@@ -266,8 +262,7 @@ def simulate_design_simple(
 def optimal_two_stage(
     a, b, delta1, t, S0_x, x, ta, tf, alpha_target=0.1, power_target=0.8, n_sim=500, max_m=100, seed=123
 ):
-    """
-    网格搜索最优的 eta 和 xi，使得设计的频率学 I 类错误 <= alpha_target 且功效 >= power_target，
+    """网格搜索最优的 eta 和 xi，使得设计的频率学 I 类错误 <= alpha_target 且功效 >= power_target，
     并选择功效最大的设计。
 
     参数:
