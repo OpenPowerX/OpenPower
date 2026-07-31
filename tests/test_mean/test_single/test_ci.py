@@ -7,9 +7,9 @@
 from dataclasses import dataclass
 from typing import Literal
 
-from pystatpower.mean.single.ci import solve_precision
-from pystatpower.mean.single.ci import solve_size
-from pystatpower.mean.single.ci import solve_std
+from ezpwr.mean.single.ci import solve_precision
+from ezpwr.mean.single.ci import solve_size
+from ezpwr.mean.single.ci import solve_std
 from tests.models import BaseTestCase
 
 

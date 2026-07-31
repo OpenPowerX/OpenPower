@@ -10,10 +10,10 @@ from typing import Literal
 
 import pytest
 
-from pystatpower.proportion.single.inequality import solve_null_proportion
-from pystatpower.proportion.single.inequality import solve_power
-from pystatpower.proportion.single.inequality import solve_proportion
-from pystatpower.proportion.single.inequality import solve_size
+from ezpwr.proportion.single.inequality import solve_null_proportion
+from ezpwr.proportion.single.inequality import solve_power
+from ezpwr.proportion.single.inequality import solve_proportion
+from ezpwr.proportion.single.inequality import solve_size
 from tests.models import BaseTestCase
 
 

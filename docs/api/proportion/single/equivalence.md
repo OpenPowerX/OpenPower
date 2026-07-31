@@ -1,1 +1,1 @@
-::: pystatpower.proportion.single.equivalence
+::: ezpwr.proportion.single.equivalence

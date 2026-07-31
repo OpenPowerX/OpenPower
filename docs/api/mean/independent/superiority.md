@@ -1,1 +1,1 @@
-::: pystatpower.mean.independent.superiority
+::: ezpwr.mean.independent.superiority

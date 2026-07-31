@@ -1,1 +1,1 @@
-::: pystatpower.mean.single.equivalence
+::: ezpwr.mean.single.equivalence

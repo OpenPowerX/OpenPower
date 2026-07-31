@@ -707,7 +707,7 @@ wheels = [
 ]
 
 [[package]]
-name = "pystatpower"
+name = "ezpwr"
 version = "0.0.7"
 source = { editable = "." }
 dependencies = [

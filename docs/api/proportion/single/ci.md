@@ -1,1 +1,1 @@
-::: pystatpower.proportion.single.ci
+::: ezpwr.proportion.single.ci

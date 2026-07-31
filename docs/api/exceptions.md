@@ -1,1 +1,1 @@
-::: pystatpower.exceptions
+::: ezpwr.exceptions

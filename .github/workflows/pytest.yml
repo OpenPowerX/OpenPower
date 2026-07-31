@@ -49,7 +49,7 @@ jobs:
       - name: Update the environment and test with python ${{ matrix.python-version }}
         run: |
           uv sync --locked --group dev
-          uv run --frozen pytest --cov=pystatpower --cov-report=xml
+          uv run --frozen pytest --cov=ezpwr --cov-report=xml
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f # v7.0.0
@@ -93,7 +93,7 @@ jobs:
         run: |
           uv sync --locked --group dev
           uv pip install scipy==${{ matrix.deps.scipy-version }} --no-build
-          uv run --frozen pytest --cov=pystatpower --cov-report=xml
+          uv run --frozen pytest --cov=ezpwr --cov-report=xml
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f # v7.0.0

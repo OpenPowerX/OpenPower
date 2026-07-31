@@ -635,7 +635,7 @@ def solve_margin(
         $$
 
         To handle cases where the superiority margin is zero, the program computes the margin indirectly.
-        It first calls [solve_superiority_proportion][pystatpower.proportion.independent.superiority.solve_superiority_proportion]
+        It first calls [solve_superiority_proportion][ezpwr.proportion.independent.superiority.solve_superiority_proportion]
         to determine the superiority proportion $p_{\\text{sup}}$, and then calculates the margin $\\delta$ using the following formula:
 
         $$

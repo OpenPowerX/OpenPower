@@ -9,13 +9,13 @@ from typing import Literal
 
 import pytest
 
-from pystatpower.proportion.single.noninferiority import _verify_and_get_noninf_proportion
-from pystatpower.proportion.single.noninferiority import solve_margin
-from pystatpower.proportion.single.noninferiority import solve_noninferiority_proportion
-from pystatpower.proportion.single.noninferiority import solve_null_proportion
-from pystatpower.proportion.single.noninferiority import solve_power
-from pystatpower.proportion.single.noninferiority import solve_proportion
-from pystatpower.proportion.single.noninferiority import solve_size
+from ezpwr.proportion.single.noninferiority import _verify_and_get_noninf_proportion
+from ezpwr.proportion.single.noninferiority import solve_margin
+from ezpwr.proportion.single.noninferiority import solve_noninferiority_proportion
+from ezpwr.proportion.single.noninferiority import solve_null_proportion
+from ezpwr.proportion.single.noninferiority import solve_power
+from ezpwr.proportion.single.noninferiority import solve_proportion
+from ezpwr.proportion.single.noninferiority import solve_size
 from tests.models import BaseTestCase
 
 

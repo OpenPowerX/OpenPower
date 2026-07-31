@@ -8,8 +8,8 @@ from typing import Literal
 
 import pytest
 
-from pystatpower.mean.independent.ci import solve_precision
-from pystatpower.mean.independent.ci import solve_size
+from ezpwr.mean.independent.ci import solve_precision
+from ezpwr.mean.independent.ci import solve_size
 from tests.models import BaseTestCase
 
 

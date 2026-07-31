@@ -7,11 +7,11 @@
 from dataclasses import dataclass
 from typing import Literal
 
-from pystatpower.exceptions import SolutionNotFoundError
-from pystatpower.proportion.independent.ci import solve_distance
-from pystatpower.proportion.independent.ci import solve_reference_proportion
-from pystatpower.proportion.independent.ci import solve_size
-from pystatpower.proportion.independent.ci import solve_treatment_proportion
+from ezpwr.exceptions import SolutionNotFoundError
+from ezpwr.proportion.independent.ci import solve_distance
+from ezpwr.proportion.independent.ci import solve_reference_proportion
+from ezpwr.proportion.independent.ci import solve_size
+from ezpwr.proportion.independent.ci import solve_treatment_proportion
 from tests.models import BaseTestCase
 
 

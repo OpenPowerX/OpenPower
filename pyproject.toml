@@ -4,7 +4,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pystatpower"
+name = "ezpwr"
 version = "0.0.7"
 description = "A Power Analysis Toolkit for Python"
 license = "GPL-3.0-or-later"
@@ -40,14 +40,14 @@ dependencies = [
 readme = { file = "README.md", content-type = "text/markdown" }
 
 [project.urls]
-Homepage = "https://github.com/Snoopy1866/pystatpower"
-Documentation = "https://pystatpower.readthedocs.io/"
-Repository = "https://github.com/Snoopy1866/pystatpower.git"
-Issues = "https://github.com/Snoopy1866/pystatpower/issues"
+Homepage = "https://github.com/Snoopy1866/ezpwr"
+Documentation = "https://ezpwr.readthedocs.io/"
+Repository = "https://github.com/Snoopy1866/ezpwr.git"
+Issues = "https://github.com/Snoopy1866/ezpwr/issues"
 
 # setuptools configuration
 [tool.setuptools.dynamic]
-version = { attr = "pystatpower.__version__" }
+version = { attr = "ezpwr.__version__" }
 
 # pytest configuration
 [tool.pytest.ini_options]

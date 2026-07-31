@@ -1,6 +1,6 @@
-# 🗺️ PyStatPower Roadmap
+# 🗺️ Ezpwr Roadmap
 
-Welcome to the **PyStatPower** project roadmap! This document outlines the project's core vision, currently supported functionality, and planned future features.
+Welcome to the **Ezpwr** project roadmap! This document outlines the project's core vision, currently supported functionality, and planned future features.
 
 !!! info
 
@@ -8,11 +8,11 @@ Welcome to the **PyStatPower** project roadmap! This document outlines the proje
 
 ## 🎯 Project Vision
 
-`PyStatPower` aims to provide a streamlined, accurate, and easy-to-use Python toolkit for statistical power analysis, sample size estimation, power calculation, and effect size solving.
+`ezpwr` aims to provide a streamlined, accurate, and easy-to-use Python toolkit for statistical power analysis, sample size estimation, power calculation, and effect size solving.
 
 ## 📚 Current Feature Status
 
-Here is the current implementation status of statistical models in `PyStatPower`:
+Here is the current implementation status of statistical models in `ezpwr`:
 
 ### 📊 Mean Models
 

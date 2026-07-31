@@ -1,1 +1,1 @@
-::: pystatpower.proportion.single.noninferiority
+::: ezpwr.proportion.single.noninferiority
