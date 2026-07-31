@@ -15,8 +15,9 @@ from math import sqrt
 from math import tanh
 from typing import Literal
 
-from scipy.optimize import brentq
 from scipy.stats import norm
+
+from .._wrap import _wrap_brentq as brentq
 
 
 def _distance_not_adjusted(

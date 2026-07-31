@@ -21,8 +21,7 @@ import warnings
 from math import ceil
 from typing import Literal
 
-from scipy.optimize import brentq
-
+from ..._wrap import _wrap_brentq as brentq
 from ._power import _power
 
 

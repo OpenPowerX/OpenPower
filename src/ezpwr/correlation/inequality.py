@@ -16,8 +16,9 @@ from math import ceil
 from math import sqrt
 from typing import Literal
 
-from scipy.optimize import brentq
 from scipy.stats import norm
+
+from .._wrap import _wrap_brentq as brentq
 
 
 def _power(
@@ -185,9 +186,9 @@ def solve_correlation(
 
     match direction:
         case "less":
-            return float(brentq(func, -1 + 1e-12, null_correlation))
+            return brentq(func, -1 + 1e-12, null_correlation)
         case "greater":
-            return float(brentq(func, null_correlation, 1 - 1e-12))
+            return brentq(func, null_correlation, 1 - 1e-12)
 
 
 def solve_null_correlation(

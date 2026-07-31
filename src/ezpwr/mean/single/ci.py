@@ -14,9 +14,10 @@ from math import ceil
 from math import sqrt
 from typing import Literal
 
-from scipy.optimize import brentq
 from scipy.stats import norm
 from scipy.stats import t
+
+from ..._wrap import _wrap_brentq as brentq
 
 
 def _precision_z(
