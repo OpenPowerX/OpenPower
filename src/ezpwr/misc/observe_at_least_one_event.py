@@ -13,7 +13,7 @@ from math import ceil
 from math import exp
 from typing import Literal
 
-from scipy.optimize import brentq
+from .._wrap import _wrap_brentq as brentq
 
 
 def _power_binom(proportion: float, size: float) -> float:

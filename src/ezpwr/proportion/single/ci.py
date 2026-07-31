@@ -15,12 +15,12 @@ from math import sqrt
 from typing import Literal
 
 from scipy.optimize import OptimizeResult
-from scipy.optimize import brentq
 from scipy.optimize import minimize_scalar
 from scipy.stats import f
 from scipy.stats import norm
 
 from ..._math_utils import _domain_square_root_of_quad
+from ..._wrap import _wrap_brentq as brentq
 
 
 def _distance_wald(

@@ -21,10 +21,10 @@ from math import sqrt
 from typing import Literal
 
 from scipy.optimize import OptimizeResult
-from scipy.optimize import brentq
 from scipy.optimize import minimize_scalar
 from scipy.stats import norm
 
+from ..._wrap import _wrap_brentq as brentq
 from ...exceptions import SolutionNotFoundError
 
 

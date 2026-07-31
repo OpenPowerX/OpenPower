@@ -18,8 +18,7 @@ This module provides functions to calculate or estimate the following parameters
 from math import ceil
 from typing import Literal
 
-from scipy.optimize import brentq
-
+from ..._wrap import _wrap_brentq as brentq
 from ._power import _power
 from ._verify import _verify_mean_and_get_diff
 from ._verify import _verify_std_and_get_std
