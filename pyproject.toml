@@ -40,10 +40,10 @@ dependencies = [
 readme = { file = "README.md", content-type = "text/markdown" }
 
 [project.urls]
-Homepage = "https://github.com/ezpwr/ezpwr"
+Homepage = "https://github.com/Snoopy1866/ezpwr"
 Documentation = "https://ezpwr.readthedocs.io/"
-Repository = "https://github.com/ezpwr/ezpwr.git"
-Issues = "https://github.com/ezpwr/ezpwr/issues"
+Repository = "https://github.com/Snoopy1866/ezpwr.git"
+Issues = "https://github.com/Snoopy1866/ezpwr/issues"
 
 # setuptools configuration
 [tool.setuptools.dynamic]

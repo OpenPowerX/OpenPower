@@ -20,7 +20,7 @@ Built with precision and developer experience in mind, it bridges the gap betwee
 
 Estimating the required sample size for a **Two-Sample Non-Inferiority Trial** takes only a few lines of code:
 
-```python
+``` python
 from ezpwr import proportion
 
 # Estimate sample size for non-inferiority proportion test
@@ -46,7 +46,7 @@ print(f"Required Sample Size: Treatment={treatment_size}, Reference={reference_s
 Each domain provides dedicated submodules for confidence intervals (`ci`), inequality/difference tests (`inequality`),
 non-inferiority (`noninferiority`), superiority (`superiority`), and equivalence (`equivalence`).
 
-```text
+``` text
 ezpwr
 ├── mean            # Mean Models (Single, Independent, Paired)
 ├── proportion      # Proportion Models (Single, Independent, Paired)
@@ -62,4 +62,4 @@ ezpwr
 
 - 🗺️ [Project Roadmap & Status](./roadmap.md) — Check supported statistical models and future feature plans.
 - 📦 [PyPI Releases](https://pypi.org/project/ezpwr/) — Package downloads and version history.
-- 🛠️ [GitHub Repository](https://github.com/ezpwr/ezpwr) — Source code, issue tracker, and contributions.
+- 🛠️ [GitHub Repository](https://github.com/Snoopy1866/ezpwr) — Source code, issue tracker, and contributions.

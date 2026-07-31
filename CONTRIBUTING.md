@@ -27,7 +27,7 @@ By participating in this project, you agree to maintain a respectful, inclusive,
 
 If you encounter a bug or unexpected behavior:
 
-1. Check the [Issue Tracker](https://github.com/ezpwr/ezpwr/issues) to ensure it hasn't already been reported.
+1. Check the [Issue Tracker](https://github.com/Snoopy1866/ezpwr/issues) to ensure it hasn't already been reported.
 2. Open a new issue with a clear title and description.
 3. Include a **Minimal Reproducible Example (MRE)**, your Python version, SciPy version, and OS details.
 
@@ -49,7 +49,7 @@ We use [`uv`](https://github.com/astral-sh/uv) for fast Python package managemen
 1. **Fork and clone the repository:**
 
    ```bash
-   git clone https://github.com/ezpwr/ezpwr.git
+   git clone https://github.com/Snoopy1866/ezpwr.git
    cd ezpwr
    ```
 

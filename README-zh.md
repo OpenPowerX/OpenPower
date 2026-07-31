@@ -2,15 +2,15 @@
 
 [![PyPI - Version](https://img.shields.io/pypi/v/ezpwr)](https://badge.fury.io/py/ezpwr)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ezpwr)
-![GitHub License](https://img.shields.io/github/license/ezpwr/ezpwr)
+![GitHub License](https://img.shields.io/github/license/Snoopy1866/ezpwr)
 ![PyPI - Status](https://img.shields.io/pypi/status/ezpwr)
 [![PyPI Downloads](https://static.pepy.tech/badge/ezpwr)](https://pepy.tech/projects/ezpwr)
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/ezpwr/ezpwr/release.yml)](https://github.com/ezpwr/ezpwr/actions/workflows/release.yml?query=branch:main)
-[![Test Status](https://img.shields.io/github/actions/workflow/status/ezpwr/ezpwr/pytest.yml?branch=main&label=test)](https://github.com/ezpwr/ezpwr/actions/workflows/pytest.yml?query=branch:main)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Snoopy1866/ezpwr/release.yml)](https://github.com/Snoopy1866/ezpwr/actions/workflows/release.yml?query=branch:main)
+[![Test Status](https://img.shields.io/github/actions/workflow/status/Snoopy1866/ezpwr/pytest.yml?branch=main&label=test)](https://github.com/Snoopy1866/ezpwr/actions/workflows/pytest.yml?query=branch:main)
 [![Documentation Status](https://readthedocs.org/projects/ezpwr/badge/?version=latest)](https://ezpwr.readthedocs.io/zh-cn/latest/?badge=latest)
-[![codecov](https://codecov.io/gh/ezpwr/ezpwr/graph/badge.svg?token=P9UWC8Q4P6)](https://codecov.io/gh/ezpwr/ezpwr)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/ezpwr/ezpwr/main.svg)](https://results.pre-commit.ci/latest/github/ezpwr/ezpwr/main)
+[![codecov](https://codecov.io/gh/Snoopy1866/ezpwr/graph/badge.svg?token=P9UWC8Q4P6)](https://codecov.io/gh/Snoopy1866/ezpwr)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Snoopy1866/ezpwr/main.svg)](https://results.pre-commit.ci/latest/github/Snoopy1866/ezpwr/main)
 
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
@@ -142,7 +142,7 @@ print(treatment_proportion)
 
 ## 🧪 兼容性测试结果
 
-[![Test Status](https://img.shields.io/github/actions/workflow/status/ezpwr/ezpwr/pytest_full.yml?branch=main&label=test)](https://github.com/ezpwr/ezpwr/actions/workflows/pytest_full.yml?query=branch:main)
+[![Test Status](https://img.shields.io/github/actions/workflow/status/Snoopy1866/ezpwr/pytest_full.yml?branch=main&label=test)](https://github.com/Snoopy1866/ezpwr/actions/workflows/pytest_full.yml?query=branch:main)
 
 |            | 🐍 3.10 | 🐍 3.11 | 🐍 3.12 | 🐍 3.13 | 🐍 3.14 |
 | ---------- | ------- | ------- | ------- | ------- | ------- |
