@@ -115,5 +115,5 @@ dev = [
 docs = [
     "mkdocs-autorefs>=1.4.4",
     "mkdocstrings-python>=2.0.5",
-    "zensical>=0.0.51"
+    "zensical>=0.0.52"
 ]
