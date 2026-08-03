@@ -93,7 +93,20 @@ $$
 \end{align*}
 $$
 
-其中 $Q_1(\cdot)$ 表示 [第一类 Owen's Q 函数](../../appendix/owenq.md#owen-q-first-type)。
+其中 $Q_1(\cdot)$ 表示 [第一类 Owen's Q 函数](../../appendix/owenq.md#owen-q-first-type)，$R$ 的表达式如下：
+
+$$
+R = \frac{\theta_1 - \theta_2}{A_1 - A_2}
+$$
+
+其中：
+
+$$
+\theta_1 = \frac{\mu - \mu_0 - \delta_1}{\sigma/\sqrt{n}}, \
+\theta_2 = \frac{\mu - \mu_0 - \delta_2}{\sigma/\sqrt{n}}, \
+A_1 = \frac{t_{1-\alpha, n-1}}{\sqrt{n-1}}, \
+A_2 = \frac{t_{\alpha, n-1}}{\sqrt{n-1}}
+$$
 
 !!! quote "参考文献"
 
