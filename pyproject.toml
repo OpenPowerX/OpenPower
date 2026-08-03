@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ezpwr"
-version = "0.0.7"
+version = "0.0.8"
 description = "A Power Analysis Toolkit for Python"
 license = "GPL-3.0-or-later"
 license-files = ["LICENSE"]
