@@ -9,15 +9,18 @@ This package provides the following modules:
 - inequality: Inequality tests for two independent means.
 - noninferiority: Non-inferiority tests for two independent means.
 - superiority: Superiority tests for two independent means.
+- equivalence: Equivalence tests for two independent means.
 """
 
 from . import ci
+from . import equivalence
 from . import inequality
 from . import noninferiority
 from . import superiority
 
 __all__ = [
     "ci",
+    "equivalence",
     "inequality",
     "noninferiority",
     "superiority",

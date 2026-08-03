@@ -11,7 +11,8 @@ nav = [
             { "两独立样本均值差置信区间" = "algorithms/mean/independent/ci.md" },
             { "两独立样本均值差异性检验" = "algorithms/mean/independent/inequality.md" },
             { "两独立样本均值非劣效检验" = "algorithms/mean/independent/noninferiority.md" },
-            { "两独立样本均值优效性检验" = "algorithms/mean/independent/superiority.md" }
+            { "两独立样本均值优效性检验" = "algorithms/mean/independent/superiority.md" },
+            { "两独立样本均值等效性检验" = "algorithms/mean/independent/equivalence.md" }
         ] },
         { "比例模型" = [
             { "单样本率置信区间" = "algorithms/proportion/single/ci.md" },
