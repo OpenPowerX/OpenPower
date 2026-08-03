@@ -58,13 +58,13 @@ pip install ezpwr
   size = proportion.single.inequality.solve_size(
       null_proportion=0.80,
       proportion=0.95,
-      alternative="one-sided",
+      alternative="greater",
       alpha=0.025,
       power=0.8,
   )
   print(size)
 
-  # output: 42
+  # output: 41
   ```
 
 - Two Independent Proportions Non-Inferiority Test
@@ -76,6 +76,7 @@ pip install ezpwr
       treatment_proportion=0.95,
       reference_proportion=0.90,
       margin=-0.10,
+      alternative="greater",
       ratio=1,
       alpha=0.025,
       power=0.8,
@@ -93,6 +94,7 @@ pip install ezpwr
   size = mean.independent.superiority.solve_size(
       diff=0.5,
       margin=0.1,
+      alternative="greater",
       treatment_std=1.2,
       reference_std=1.2,
       ratio=2,
@@ -113,13 +115,14 @@ power = proportion.independent.noninferiority.solve_power(
     treatment_proportion=0.95,
     reference_proportion=0.90,
     margin=-0.10,
+    alternative="greater",
     treatment_size=48,
     reference_size=48,
     alpha=0.025,
 )
 print(power)
 
-# output: 0.800282915718918
+# output: 0.8002829157189179
 ```
 
 ### Effect Size Solving
@@ -130,6 +133,7 @@ from ezpwr import proportion
 treatment_proportion = proportion.independent.noninferiority.solve_treatment_proportion(
     reference_proportion=0.90,
     margin=-0.10,
+    alternative="greater",
     treatment_size=48,
     reference_size=48,
     alpha=0.025,
@@ -137,7 +141,7 @@ treatment_proportion = proportion.independent.noninferiority.solve_treatment_pro
 )
 print(treatment_proportion)
 
-# output: 0.9499637015276098
+# output: 0.9499637015276099
 ```
 
 ## 🧪 Compatibility Matrix
