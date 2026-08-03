@@ -53,7 +53,7 @@ $$
     & Pr(T_1 \leqslant t_1 \cap T_2 \leqslant t_2) =     Q_1(\nu, t_1, \delta_1, R) + Q_2(\nu, t_2, \delta_2, R) \\
     & Pr(T_1 \leqslant t_1 \cap T_2 \geqslant t_2) =     Q_2(\nu, t_1, \delta_1, R) + Q_2(\nu, t_2, \delta_2, R) \\
     & Pr(T_1 \geqslant t_1 \cap T_2 \geqslant t_2) = 1 - Q_2(\nu, t_1, \delta_1, R) + Q_1(\nu, t_2, \delta_2, R) \\
-    & Pr(T_1 \geqslant t_1 \cap T_2 \leqslant t_2) =     Q_1(\nu, t_1, \delta_1, R) + Q_1(\nu, t_2, \delta_2, R)
+    & Pr(T_1 \geqslant t_1 \cap T_2 \leqslant t_2) =     Q_1(\nu, t_2, \delta_2, R) - Q_1(\nu, t_1, \delta_1, R)
     \end{align}
     $$
 
@@ -73,3 +73,7 @@ $$
     & Pr(T_1 \geqslant t_1 \cap T_2 \leqslant t_2) = 0
     \end{align}
     $$
+
+!!! quote "参考文献"
+
+    1. Owen D B. A special case of a bivariate non-central t-distribution[J]. Biometrika, 1965, 52(3/4): 437-446.
