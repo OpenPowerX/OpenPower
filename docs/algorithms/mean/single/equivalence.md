@@ -81,8 +81,6 @@ $$
 t'_2 = \frac{\hat{\mu} - \mu_0 - \delta_2}{s/\sqrt{n}} \sim t\left(n - 1, \frac{\mu - \mu_0 - \delta_2}{\sigma/\sqrt{n}}\right)
 $$
 
-令 $T(x;v,\lambda)$ 为自由度为 $v$，非中心参数为 $\lambda$ 的非中心 $t$ 分布的累积分布函数。
-
 计算检验效能：
 
 $$

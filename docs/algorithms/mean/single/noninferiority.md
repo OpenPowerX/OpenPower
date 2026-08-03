@@ -72,7 +72,7 @@ $$
 t' = \frac{\hat{\mu} - \mu_0 - \delta}{s/\sqrt{n}} \sim t\left(n-1, \frac{\mu-\mu_0-\delta}{\sigma/\sqrt{n}}\right)
 $$
 
-用 $T(x;v,\lambda)$ 表示自由度为 $v$，非中心参数为 $\lambda$ 的非中心 $t$ 分布的累积分布函数。
+用 $T(x;\nu,\lambda)$ 表示自由度为 $\nu$，非中心参数为 $\lambda$ 的非中心 $t$ 分布的累积分布函数。
 
 === "高优指标"
 

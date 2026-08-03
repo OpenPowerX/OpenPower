@@ -161,7 +161,7 @@ t' = \frac{\hat{\mu}_1 - \hat{\mu}_2 - \delta}{s_c\sqrt{\frac{1}{n_1} + \frac{1}
      \sim t\left(n_1 + n_2 - 2, \frac{\mu_1 - \mu_2 - \delta}{\sigma \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}}\right)
 $$
 
-令 $T(x;v,\lambda)$ 为自由度为 $v$，非中心参数为 $\lambda$ 的非中心 $t$ 分布的累积分布函数。
+令 $T(x;\nu,\lambda)$ 为自由度为 $\nu$，非中心参数为 $\lambda$ 的非中心 $t$ 分布的累积分布函数。
 
 === "高优指标"
 
@@ -188,34 +188,34 @@ $$
 在 $H_0$ 成立时，可构建 $t$ 统计量：
 
 $$
-t = \frac{\hat{\mu}_1 - \hat{\mu}_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}} \sim t(v')
+t = \frac{\hat{\mu}_1 - \hat{\mu}_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}} \sim t(\nu')
 $$
 
 其中：
 
 $$
-v' = \frac{\left(\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}\right)^2}{\frac{s_1^4}{n_1^2(n_1 + 1)} + \frac{s_2^4}{n_2^2(n_2 + 1)}} - 2
+\nu' = \frac{\left(\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}\right)^2}{\frac{s_1^4}{n_1^2(n_1 + 1)} + \frac{s_2^4}{n_2^2(n_2 + 1)}} - 2
 $$
 
 在 $H_1$ 成立时，可构建 $t'$ 统计量：
 
 $$
 t' = \frac{\hat{\mu}_1 - \hat{\mu}_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
-     \sim t\left(v', \frac{\mu_1 - \mu_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
+     \sim t\left(\nu', \frac{\mu_1 - \mu_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
 $$
 
-令 $T(x;v,\lambda)$ 为自由度为 $v$，非中心参数为 $\lambda$ 的非中心 $t$ 分布的累积分布函数。
+令 $T(x;\nu,\lambda)$ 为自由度为 $\nu$，非中心参数为 $\lambda$ 的非中心 $t$ 分布的累积分布函数。
 
 === "高优指标"
 
     $$
-    \text{Power} = P\left(t' > t_{1-\alpha}\right) = 1 - T\left(t_{1-\alpha, v'}; v', \frac{\mu_1 - \mu_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
+    \text{Power} = P\left(t' > t_{1-\alpha}\right) = 1 - T\left(t_{1-\alpha, \nu'}; \nu', \frac{\mu_1 - \mu_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
     $$
 
 === "低优指标"
 
     $$
-    \text{Power} = P\left(t' < t_{\alpha}\right) = T\left(t_{\alpha, v'}; v', \frac{\mu_1 - \mu_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
+    \text{Power} = P\left(t' < t_{\alpha}\right) = T\left(t_{\alpha, \nu'}; \nu', \frac{\mu_1 - \mu_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
     $$
 
 #### _Satterthwaite_ 近似 _t_ 检验 {#t-test-unequal-var-satterthwaite}
@@ -223,34 +223,34 @@ $$
 在 $H_0$ 成立时，可构建 $t$ 统计量：
 
 $$
-t = \frac{\hat{\mu}_1 - \hat{\mu}_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}} \sim t(v')
+t = \frac{\hat{\mu}_1 - \hat{\mu}_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}} \sim t(\nu')
 $$
 
 其中：
 
 $$
-v' = \frac{\left(\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}\right)^2}{\frac{s_1^4}{n_1^2(n_1 - 1)} + \frac{s_2^4}{n_2^2(n_2 - 1)}}
+\nu' = \frac{\left(\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}\right)^2}{\frac{s_1^4}{n_1^2(n_1 - 1)} + \frac{s_2^4}{n_2^2(n_2 - 1)}}
 $$
 
 在 $H_1$ 成立时，可构建 $t'$ 统计量：
 
 $$
 t' = \frac{\hat{\mu}_1 - \hat{\mu}_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
-     \sim t\left(v', \frac{\mu_1 - \mu_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
+     \sim t\left(\nu', \frac{\mu_1 - \mu_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
 $$
 
-令 $T(x;v,\lambda)$ 为自由度为 $v$，非中心参数为 $\lambda$ 的非中心 $t$ 分布的累积分布函数。
+令 $T(x;\nu,\lambda)$ 为自由度为 $\nu$，非中心参数为 $\lambda$ 的非中心 $t$ 分布的累积分布函数。
 
 === "高优指标"
 
     $$
-    \text{Power} = P\left(t' > t_{1-\alpha}\right) = 1 - T\left(t_{1-\alpha, v'}; v', \frac{\mu_1 - \mu_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
+    \text{Power} = P\left(t' > t_{1-\alpha}\right) = 1 - T\left(t_{1-\alpha, \nu'}; \nu', \frac{\mu_1 - \mu_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
     $$
 
 === "低优指标"
 
     $$
-    \text{Power} = P\left(t' < t_{\alpha}\right) = T\left(t_{\alpha, v'}; v', \frac{\mu_1 - \mu_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
+    \text{Power} = P\left(t' < t_{\alpha}\right) = T\left(t_{\alpha, \nu'}; \nu', \frac{\mu_1 - \mu_2 - \delta}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}\right)
     $$
 
 --8<-- [end:algorithm]
