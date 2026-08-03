@@ -9,14 +9,12 @@ This module provides functions to calculate or estimate the following parameters
 - sample size
 """
 
-from math import ceil, sqrt
+from math import sqrt
 from typing import Literal
-from typing import overload
 
 from scipy.stats import t
 
 from ..._math_utils import _owen_o4
-from ..._wrap import _wrap_brentq as brentq
 from ._power import _power as _raw_power
 from ._verify import _verify_mean_and_get_diff
 from ._verify import _verify_std_and_get_std
